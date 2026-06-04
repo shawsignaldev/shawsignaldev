@@ -2,6 +2,10 @@
 
 The local repository files are prepared in this workspace. GitHub-side actions still need authenticated GitHub access.
 
+## Security Note
+
+Do not paste GitHub tokens, passwords, broker credentials, or API keys into chat, commits, screenshots, or docs. If a token or password is exposed, revoke or rotate it before publishing.
+
 ## Create or Update Repositories
 
 - `shawsignaldev`

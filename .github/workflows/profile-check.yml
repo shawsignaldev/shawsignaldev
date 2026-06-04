@@ -1,0 +1,16 @@
+name: Profile Check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  structure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify profile files
+        run: |
+          test -f README.md
+          test -f PROJECTS.md
+
