@@ -19,5 +19,9 @@ jobs:
           test -f PORTFOLIO_REVIEW_GUIDE.md
           test -f PACKAGE_SURFACES.md
           test -f AVATAR.md
+          test -f LICENSE
+          test -f SECURITY.md
+          test -f CHANGELOG.md
+          test -f CONTRIBUTING.md
           test -f assets/profile-mark.svg
           test -f assets/shawsignaldev-avatar.png
