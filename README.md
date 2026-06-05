@@ -8,6 +8,8 @@ I build software at the intersection of quantitative finance, applied AI, market
 
 I am interested in quantitative trading, software engineering, AI engineering, fintech infrastructure, and cyber-physical systems roles where rigorous tooling, clean documentation, and fast learning matter.
 
+![Portfolio map](assets/portfolio-map.svg)
+
 ## Current Focus
 
 - Quantitative trading systems
