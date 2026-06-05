@@ -6,7 +6,7 @@
     <rect x="74" y="160" width="230" height="82" rx="8" fill="#172033" stroke="#475569"/><text x="118" y="195" fill="#fff">ARGUS</text><text x="110" y="220" fill="#cbd5e1" font-size="12">control-theoretic risk</text>
     <rect x="384" y="160" width="230" height="82" rx="8" fill="#172033" stroke="#475569"/><text x="433" y="195" fill="#fff">CIPHER</text><text x="421" y="220" fill="#cbd5e1" font-size="12">research terminal</text>
     <rect x="694" y="160" width="230" height="82" rx="8" fill="#172033" stroke="#475569"/><text x="749" y="195" fill="#fff">ARES</text><text x="731" y="220" fill="#cbd5e1" font-size="12">review and analytics</text>
-    <rect x="74" y="310" width="230" height="82" rx="8" fill="#172033" stroke="#475569"/><text x="116" y="345" fill="#fff">ORACLE</text><text x="111" y="370" fill="#cbd5e1" font-size="12">research assistant layer</text>
+    <rect x="74" y="310" width="230" height="82" rx="8" fill="#172033" stroke="#475569"/><text x="116" y="345" fill="#fff">ORACLE</text><text x="111" y="370" fill="#cbd5e1" font-size="12">research workflow layer</text>
     <rect x="384" y="310" width="230" height="82" rx="8" fill="#172033" stroke="#475569"/><text x="435" y="345" fill="#fff">AURORA</text><text x="420" y="370" fill="#cbd5e1" font-size="12">correlation networks</text>
     <rect x="694" y="310" width="230" height="82" rx="8" fill="#172033" stroke="#475569"/><text x="742" y="345" fill="#fff">CPSE LABS</text><text x="729" y="370" fill="#cbd5e1" font-size="12">embedded systems</text>
   </g>

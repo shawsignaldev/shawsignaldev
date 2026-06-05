@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="460" viewBox="0 0 1120 460" role="img" aria-label="Capability matrix">
+  <rect width="1120" height="460" fill="#0b1220"/>
+  <text x="58" y="62" fill="#f8fafc" font-family="Inter,Segoe UI,Arial" font-size="30" font-weight="700">Capability Matrix</text>
+  <text x="58" y="94" fill="#a5b4c8" font-family="Inter,Segoe UI,Arial" font-size="16">Engineering themes across the public portfolio</text>
+  <g font-family="Inter,Segoe UI,Arial" font-size="13">
+    <rect x="64" y="130" width="992" height="260" rx="10" fill="#111827" stroke="#334155"/>
+    <g fill="#e5e7eb" font-weight="700">
+      <text x="96" y="168">Project</text><text x="270" y="168">Quant / Risk</text><text x="430" y="168">Data / Dashboards</text><text x="620" y="168">Ops / Automation</text><text x="820" y="168">CPS / Embedded</text>
+    </g>
+    <g fill="#cbd5e1">
+      <text x="96" y="212">ARGUS</text><text x="300" y="212">primary</text><text x="476" y="212">support</text><text x="668" y="212">support</text><text x="860" y="212">theory</text>
+      <text x="96" y="252">CIPHER</text><text x="300" y="252">primary</text><text x="476" y="252">primary</text><text x="668" y="252">primary</text><text x="860" y="252">support</text>
+      <text x="96" y="292">Aurora</text><text x="300" y="292">support</text><text x="476" y="292">primary</text><text x="668" y="292">support</text><text x="860" y="292">-</text>
+      <text x="96" y="332">CPSE Labs</text><text x="300" y="332">-</text><text x="476" y="332">support</text><text x="668" y="332">support</text><text x="860" y="332">primary</text>
+      <text x="96" y="372">Eidenhall / M2M</text><text x="300" y="372">-</text><text x="476" y="372">support</text><text x="668" y="372">primary</text><text x="860" y="372">support</text>
+    </g>
+    <g stroke="#334155"><path d="M64 184 H1056"/><path d="M64 224 H1056"/><path d="M64 264 H1056"/><path d="M64 304 H1056"/><path d="M64 344 H1056"/></g>
+  </g>
+</svg>
