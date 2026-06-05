@@ -12,6 +12,7 @@ This file tracks the projects represented in the public GitHub portfolio plan.
 | ORACLE | Market intelligence and structured research workflow layer |
 | Deploq | Risk-first trading operator platform product architecture |
 | Aurora Market Network Explorer | Streamlit correlation-network dashboard |
+| Market Data Ingestion Lab | OHLCV ingestion, validation, cleaning, and data-quality reporting |
 | CPSE Engineering Labs | Sanitized embedded systems, networking, and sensors portfolio |
 | Eidenhall | Sanitized dashboard orchestration and daily memo automation |
 | M2M Learning Systems | Sanitized homework, mock-exam, and concept-graph workflows |

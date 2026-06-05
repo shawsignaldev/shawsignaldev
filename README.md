@@ -1,3 +1,5 @@
+<img src="assets/profile-mark.svg" align="right" width="128" alt="Ephraim Shaw profile mark">
+
 # Ephraim Shaw
 
 **Cyber-Physical Systems Engineering | Quant Systems | Market Infrastructure | Operator Tooling**
@@ -7,6 +9,9 @@ Cyber-Physical Systems Engineering student building trading systems, decision wo
 I build software at the intersection of quantitative finance, market data, systems automation, and cyber-physical systems. My work focuses on risk-first trading infrastructure, operator workflows, dashboards, data pipelines, and tools that make complex systems observable, testable, and operational.
 
 I am interested in quantitative trading, software engineering, fintech infrastructure, and cyber-physical systems roles where rigorous tooling, clean documentation, and fast learning matter.
+
+Portfolio site: [shawsignaldev.github.io](https://shawsignaldev.github.io)  
+Recruiter guide: [RECRUITER_PACKET.md](RECRUITER_PACKET.md)
 
 ![Portfolio map](assets/portfolio-map.svg)
 
@@ -30,6 +35,7 @@ I am interested in quantitative trading, software engineering, fintech infrastru
 | [ORACLE](https://github.com/shawsignaldev/oracle) | Market intelligence and structured research workflow layer | Decision-support workflow |
 | [Deploq](https://github.com/shawsignaldev/deploq) | Risk-first trading operator platform architecture | Product architecture |
 | [Aurora](https://github.com/shawsignaldev/aurora-market-network-explorer) | Streamlit market correlation network dashboard | Data visualization |
+| [Market Data Ingestion Lab](https://github.com/shawsignaldev/market-data-ingestion-lab) | OHLCV ingestion, validation, cleaning, and data-quality reporting | Data engineering |
 | [CPSE Engineering Labs](https://github.com/shawsignaldev/cpse-engineering-labs) | Embedded systems, TCP/UDP networking, sensors, and microelectronics | Engineering labs |
 | [Eidenhall](https://github.com/shawsignaldev/eidenhall) | Dashboard orchestration and daily memo automation | Operations tooling |
 | [M2M Learning Systems](https://github.com/shawsignaldev/m2m-learning-systems) | Homework, mock-exam, and concept-graph workflows | Learning systems |
@@ -44,6 +50,7 @@ I am interested in quantitative trading, software engineering, fintech infrastru
 | Research workflows | Decision-support templates, source review, operator checklists |
 | CPS and embedded | MATLAB, Arduino/C++, ESP32, TCP/UDP, sensors, microelectronics |
 | Engineering practice | Documentation, testing, reproducible examples, security hygiene |
+| Package surfaces | `src/` layouts, `pyproject.toml`, CLI entry points, GitHub Actions |
 
 ## Selected Academic Signal
 
@@ -61,11 +68,12 @@ University of Maryland, Cyber-Physical Systems Engineering, B.S. candidate, May 
 
 1. **ARGUS** for quantitative risk architecture, Python packaging, and CPS/control-theory framing.
 2. **CIPHER** for command-line tooling, market workflow design, and automation.
-3. **Aurora** for dashboard/data visualization work.
-4. **CPSE Engineering Labs** for embedded systems, sensors, and networking breadth.
-5. **Eidenhall** and **M2M** for operations automation and structured learning-system design.
+3. **Market Data Ingestion Lab** for data-quality boundaries, package structure, and test coverage.
+4. **Aurora** for dashboard/data visualization work.
+5. **CPSE Engineering Labs** for embedded systems, sensors, and networking breadth.
+6. **Eidenhall** and **M2M** for operations automation and structured learning-system design.
 
-See [Recruiter Packet](RECRUITER_PACKET.md) for a compact hiring review artifact, [Portfolio Review Guide](PORTFOLIO_REVIEW_GUIDE.md) for a role-by-role review path, [Technical Depth Matrix](TECHNICAL_DEPTH_MATRIX.md) for skill evidence, and [Engineering Principles](ENGINEERING_PRINCIPLES.md) for the standards applied across the repositories.
+See [Recruiter Packet](RECRUITER_PACKET.md) for a compact hiring review artifact, [Portfolio Review Guide](PORTFOLIO_REVIEW_GUIDE.md) for a role-by-role review path, [Technical Depth Matrix](TECHNICAL_DEPTH_MATRIX.md) for skill evidence, [Package Surfaces](PACKAGE_SURFACES.md) for installable project structure, and [Engineering Principles](ENGINEERING_PRINCIPLES.md) for the standards applied across the repositories.
 
 ## Repository Standards
 

@@ -17,3 +17,5 @@ jobs:
           test -f TECHNICAL_DEPTH_MATRIX.md
           test -f ENGINEERING_PRINCIPLES.md
           test -f PORTFOLIO_REVIEW_GUIDE.md
+          test -f PACKAGE_SURFACES.md
+          test -f assets/profile-mark.svg

@@ -2,7 +2,8 @@
 
 | Skill Area | Evidence | Repository |
 | --- | --- | --- |
-| Python packaging | `src/` layout, `pyproject.toml`, tests, CLI entry points | ARGUS, CIPHER, ARES, ORACLE, Aurora |
+| Python packaging | `src/` layout, `pyproject.toml`, tests, CLI entry points | ARGUS, CIPHER, ARES, ORACLE, Aurora, Eidenhall, M2M, Market Data Ingestion Lab |
+| Market-data quality | Provider boundary, OHLCV validation, clean frame output, quality report | Market Data Ingestion Lab |
 | Quant/risk tooling | Drawdown, volatility, stability margins, rolling windows | ARGUS |
 | State estimation | Scalar Kalman-style smoothing over sample observations | ARGUS |
 | Command-line systems | Command taxonomy and terminal report rendering | CIPHER, ARGUS |
