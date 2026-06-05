@@ -65,7 +65,7 @@ University of Maryland, Cyber-Physical Systems Engineering, B.S. candidate, May 
 4. **CPSE Engineering Labs** for embedded systems, sensors, and networking breadth.
 5. **Eidenhall** and **M2M** for operations automation and structured learning-system design.
 
-See [Portfolio Review Guide](PORTFOLIO_REVIEW_GUIDE.md) for a role-by-role review path and [Engineering Principles](ENGINEERING_PRINCIPLES.md) for the standards applied across the repositories.
+See [Recruiter Packet](RECRUITER_PACKET.md) for a compact hiring review artifact, [Portfolio Review Guide](PORTFOLIO_REVIEW_GUIDE.md) for a role-by-role review path, [Technical Depth Matrix](TECHNICAL_DEPTH_MATRIX.md) for skill evidence, and [Engineering Principles](ENGINEERING_PRINCIPLES.md) for the standards applied across the repositories.
 
 ## Repository Standards
 

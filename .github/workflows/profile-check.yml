@@ -13,4 +13,7 @@ jobs:
         run: |
           test -f README.md
           test -f PROJECTS.md
-
+          test -f RECRUITER_PACKET.md
+          test -f TECHNICAL_DEPTH_MATRIX.md
+          test -f ENGINEERING_PRINCIPLES.md
+          test -f PORTFOLIO_REVIEW_GUIDE.md
