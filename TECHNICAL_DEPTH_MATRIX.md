@@ -11,8 +11,10 @@
 | Product architecture | Static product system, operator controls, audit model | Deploq |
 | Schemas and exports | Typed trade records, CSV load, JSON export | ARES |
 | Operations tooling | Daily memo generation, dashboard status, runbook | Eidenhall |
+| Control-plane modeling | Dashboard snapshot, review gate, stale-input tracking, operations topology | Eidenhall |
 | Embedded/networking | ESP32, DHT22, TCP/UDP scripts, sensor workflows | CPSE Engineering Labs |
-| Learning systems | Concept graph, review queue, cycle scheduling | M2M Learning Systems |
+| Knowledge graphs | Concepts, prerequisite edges, graph integrity checks, sanitized graph sample | M2M Learning Systems |
+| Learning systems | Review queue, cycle scheduling, mock-exam workflow | M2M Learning Systems |
 
 ## Gaps To Keep Improving
 

@@ -9,7 +9,7 @@ Ephraim Shaw is a Cyber-Physical Systems Engineering student at the University o
 | Role Target | Start Here | What It Shows |
 | --- | --- | --- |
 | Quantitative developer intern | ARGUS, CIPHER, Aurora, Market Data Ingestion Lab | Risk diagnostics, market-data workflows, CLI tooling, correlation networks, data-quality gates |
-| Software engineering intern | CIPHER, ARES, Eidenhall, M2M, Market Data Ingestion Lab | Packaging, tests, command surfaces, schemas, automation, documentation |
+| Software engineering intern | CIPHER, ARES, Eidenhall, M2M, Market Data Ingestion Lab | Packaging, tests, command surfaces, schemas, automation, graph models, documentation |
 | Fintech / market infrastructure intern | ARGUS, ARES, Deploq, Market Data Ingestion Lab | Risk-first design, process controls, auditability, privacy boundaries |
 | Cyber-physical systems intern | CPSE Engineering Labs, ARGUS | Sensors, TCP/UDP, embedded systems, state-estimation framing |
 | Data/dashboard intern | Aurora, Eidenhall | Streamlit dashboard design, graph metrics, reporting systems |
@@ -26,8 +26,8 @@ Ephraim Shaw is a Cyber-Physical Systems Engineering student at the University o
 | Aurora | Correlation matrix, thresholded graph edges, node metrics, dashboard export | `src/aurora/graph.py`, `src/aurora/metrics.py`, `app.py` |
 | Market Data Ingestion Lab | Provider boundary, OHLCV schema validation, cleaning, CLI report, local coverage | `src/market_ingestion/loader.py`, `src/market_ingestion/quality.py`, `tests/` |
 | CPSE Labs | Embedded/networking breadth with academic-integrity boundaries | `dht22-tcp-sensor/`, `network-analysis/`, `docs/lab_index.md` |
-| Eidenhall | Daily memo workflow and operations runbook structure | `src/eidenhall/memo.py`, `docs/system_design.md` |
-| M2M Learning Systems | Concept graph, review queue, scheduling workflow | `src/m2m/graph.py`, `src/m2m/review.py`, `docs/knowledge_graph_spec.md` |
+| Eidenhall | Daily memo workflow, dashboard snapshot, control-plane diagram, operations runbook | `src/eidenhall/dashboard.py`, `src/eidenhall/memo.py`, `docs/system_design.md` |
+| M2M Learning Systems | Knowledge graph helpers, sanitized graph sample, review queue, scheduling workflow | `src/m2m/graph.py`, `examples/sample_knowledge_graph.json`, `docs/knowledge_graph_spec.md` |
 
 ## Interview Talking Points
 
@@ -35,6 +35,7 @@ Ephraim Shaw is a Cyber-Physical Systems Engineering student at the University o
 - State estimation: how noisy observations can be smoothed and monitored.
 - Market-network structure: how correlation thresholds change graph density and clusters.
 - Data-quality boundaries: how provider inputs are normalized and validated before analytics.
+- Knowledge graphs: how concepts, prerequisites, weak points, and review cycles become a system.
 - Workflow tooling: how repeatable command surfaces reduce operational friction.
 - Privacy and security: how credentials, account data, and restricted coursework are excluded.
 

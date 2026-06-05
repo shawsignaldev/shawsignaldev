@@ -32,7 +32,8 @@ The portfolio is organized around systems that make complex domains easier to ob
 - Aurora visualizes market relationships through correlation networks.
 - Market Data Ingestion Lab shows the data-quality boundary before analytics.
 - CPSE Engineering Labs demonstrates hardware/software/networking breadth.
-- Eidenhall and M2M show operations automation and structured learning workflows.
+- Eidenhall shows control-plane thinking for operations automation, dashboard state, and review gates.
+- M2M shows knowledge-graph thinking for concept dependencies, review queues, and mock-exam cycles.
 
 ## Review Checklist
 
@@ -49,4 +50,6 @@ The portfolio is organized around systems that make complex domains easier to ob
 - How should ARES balance privacy with useful post-trade analytics?
 - Where should market-data validation happen before risk or dashboard modules consume it?
 - How would Aurora change when moving from sample data to live market universes?
+- How should M2M detect broken prerequisite links in a concept graph?
+- How should Eidenhall represent stale inputs before a memo reaches operator review?
 - What security controls are needed before Deploq could support gated template delivery?

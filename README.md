@@ -1,4 +1,4 @@
-<img src="assets/profile-mark.svg" align="right" width="128" alt="Ephraim Shaw profile mark">
+<img src="assets/shawsignaldev-avatar.png" align="right" width="128" alt="ShawSignalDev avatar mark">
 
 # Ephraim Shaw
 
@@ -12,6 +12,8 @@ I am interested in quantitative trading, software engineering, fintech infrastru
 
 Portfolio site: [shawsignaldev.github.io](https://shawsignaldev.github.io)  
 Recruiter guide: [RECRUITER_PACKET.md](RECRUITER_PACKET.md)
+
+Public engineering handle: **ShawSignalDev**. The portfolio is organized around signal, systems, and disciplined developer workflows: data comes in, uncertainty gets modeled, operators get a clear review surface, and sensitive inputs stay out of public code.
 
 ![Portfolio map](assets/portfolio-map.svg)
 
@@ -37,8 +39,8 @@ Recruiter guide: [RECRUITER_PACKET.md](RECRUITER_PACKET.md)
 | [Aurora](https://github.com/shawsignaldev/aurora-market-network-explorer) | Streamlit market correlation network dashboard | Data visualization |
 | [Market Data Ingestion Lab](https://github.com/shawsignaldev/market-data-ingestion-lab) | OHLCV ingestion, validation, cleaning, and data-quality reporting | Data engineering |
 | [CPSE Engineering Labs](https://github.com/shawsignaldev/cpse-engineering-labs) | Embedded systems, TCP/UDP networking, sensors, and microelectronics | Engineering labs |
-| [Eidenhall](https://github.com/shawsignaldev/eidenhall) | Dashboard orchestration and daily memo automation | Operations tooling |
-| [M2M Learning Systems](https://github.com/shawsignaldev/m2m-learning-systems) | Homework, mock-exam, and concept-graph workflows | Learning systems |
+| [Eidenhall](https://github.com/shawsignaldev/eidenhall) | Dashboard orchestration, control-plane snapshots, and daily memo automation | Operations tooling |
+| [M2M Learning Systems](https://github.com/shawsignaldev/m2m-learning-systems) | Knowledge graphs, mock-exam cycles, and structured review workflows | Learning systems |
 
 ## Technical Stack
 
@@ -60,6 +62,7 @@ University of Maryland, Cyber-Physical Systems Engineering, B.S. candidate, May 
 
 - Risk-first systems design
 - Research code that is explainable, testable, and reproducible
+- Signal-to-system thinking: ingest, validate, model, review, and report
 - Clear boundaries between educational tooling and real-world financial decision-making
 - Local-first workflows for sensitive data, credentials, and personal records
 - Documentation that lets a recruiter or engineer understand the architecture quickly
@@ -71,7 +74,8 @@ University of Maryland, Cyber-Physical Systems Engineering, B.S. candidate, May 
 3. **Market Data Ingestion Lab** for data-quality boundaries, package structure, and test coverage.
 4. **Aurora** for dashboard/data visualization work.
 5. **CPSE Engineering Labs** for embedded systems, sensors, and networking breadth.
-6. **Eidenhall** and **M2M** for operations automation and structured learning-system design.
+6. **Eidenhall** for control-plane style operations automation and memo workflows.
+7. **M2M** for knowledge graphs, review queues, and learning-system design.
 
 See [Recruiter Packet](RECRUITER_PACKET.md) for a compact hiring review artifact, [Portfolio Review Guide](PORTFOLIO_REVIEW_GUIDE.md) for a role-by-role review path, [Technical Depth Matrix](TECHNICAL_DEPTH_MATRIX.md) for skill evidence, [Package Surfaces](PACKAGE_SURFACES.md) for installable project structure, and [Engineering Principles](ENGINEERING_PRINCIPLES.md) for the standards applied across the repositories.
 

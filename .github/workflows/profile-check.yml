@@ -18,4 +18,6 @@ jobs:
           test -f ENGINEERING_PRINCIPLES.md
           test -f PORTFOLIO_REVIEW_GUIDE.md
           test -f PACKAGE_SURFACES.md
+          test -f AVATAR.md
           test -f assets/profile-mark.svg
+          test -f assets/shawsignaldev-avatar.png
