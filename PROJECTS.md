@@ -13,15 +13,9 @@ This file tracks the projects represented in the public GitHub portfolio plan.
 | Deploq | Risk-first AI trading operator platform product prototype |
 | Aurora Market Network Explorer | Streamlit correlation-network dashboard |
 | CPSE Engineering Labs | Sanitized embedded systems, networking, and sensors portfolio |
-
-## Additional Internal Work
-
-| Project | Public Treatment |
-| --- | --- |
-| M2M | Sanitized learning workflow automation documentation may be added later |
-| Eidenhall | Sanitized dashboard and memo automation documentation may be added later |
+| Eidenhall | Sanitized dashboard orchestration and daily memo automation |
+| M2M Learning Systems | Sanitized homework, mock-exam, and concept-graph workflows |
 
 ## Excluded
 
 Mr. Soprano is intentionally excluded from this GitHub portfolio plan.
-

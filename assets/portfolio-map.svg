@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1120" height="520" viewBox="0 0 1120 520" role="img" aria-label="Portfolio map">
   <rect width="1120" height="520" fill="#0f172a"/>
   <text x="60" y="66" fill="#f8fafc" font-family="Inter,Segoe UI,Arial" font-size="32" font-weight="700">Ephraim Shaw Portfolio Map</text>
-  <text x="60" y="100" fill="#a5b4c8" font-family="Inter,Segoe UI,Arial" font-size="16">Quant systems, applied intelligence, market infrastructure, and cyber-physical engineering</text>
+  <text x="60" y="100" fill="#a5b4c8" font-family="Inter,Segoe UI,Arial" font-size="16">Quant systems, market infrastructure, operations tooling, learning systems, and cyber-physical engineering</text>
   <g font-family="Inter,Segoe UI,Arial" font-size="14" font-weight="700">
     <rect x="74" y="160" width="230" height="82" rx="8" fill="#172033" stroke="#475569"/><text x="118" y="195" fill="#fff">ARGUS</text><text x="110" y="220" fill="#cbd5e1" font-size="12">control-theoretic risk</text>
     <rect x="384" y="160" width="230" height="82" rx="8" fill="#172033" stroke="#475569"/><text x="433" y="195" fill="#fff">CIPHER</text><text x="421" y="220" fill="#cbd5e1" font-size="12">research terminal</text>
@@ -12,4 +12,3 @@
   </g>
   <path d="M304 201 H384 M614 201 H694 M304 351 H384 M614 351 H694" stroke="#38bdf8" stroke-width="3" fill="none"/>
 </svg>
-

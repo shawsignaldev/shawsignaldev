@@ -29,8 +29,8 @@ I am interested in quantitative trading, software engineering, AI engineering, f
 | [Deploq](https://github.com/shawsignaldev/deploq) | Risk-first AI trading operator platform concept | Product prototype |
 | [Aurora](https://github.com/shawsignaldev/aurora-market-network-explorer) | Streamlit market correlation network dashboard | Data visualization |
 | [CPSE Engineering Labs](https://github.com/shawsignaldev/cpse-engineering-labs) | Embedded systems, TCP/UDP networking, sensors, and microelectronics | Engineering labs |
-
-Additional internal work includes M2M learning workflow automation and Eidenhall dashboard/memo automation. Public artifacts for those systems should remain sanitized and documentation-first unless source code is explicitly reviewed for privacy and academic-integrity concerns.
+| [Eidenhall](https://github.com/shawsignaldev/eidenhall) | Dashboard orchestration and daily memo automation | Operations tooling |
+| [M2M Learning Systems](https://github.com/shawsignaldev/m2m-learning-systems) | Homework, mock-exam, and concept-graph workflows | Learning systems |
 
 ## Technical Stack
 
@@ -61,6 +61,7 @@ University of Maryland, Cyber-Physical Systems Engineering, B.S. candidate, May 
 2. **CIPHER** for command-line tooling, market workflow design, and automation.
 3. **Aurora** for dashboard/data visualization work.
 4. **CPSE Engineering Labs** for embedded systems, sensors, and networking breadth.
+5. **Eidenhall** and **M2M** for operations automation and structured learning-system design.
 
 ## Contact
 
