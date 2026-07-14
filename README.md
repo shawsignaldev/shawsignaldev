@@ -31,6 +31,7 @@ Public engineering handle: **ShawSignalDev**. The portfolio is organized around 
 
 | Project | Focus | Status |
 | --- | --- | --- |
+| [FPGA Low-Latency Market Data Engine](https://github.com/shawsignaldev/fpga-low-latency-market-data-engine) | Parameterized Verilog market-data pipeline with sequence integrity, top-of-book state, deterministic cycle accounting, safety gating, self-checking RTL verification, Python golden model, and Xilinx Vivado/Basys 3 integration | Hardware / low-latency systems |
 | [ARGUS](https://github.com/shawsignaldev/argus) | Control-theoretic quantitative research and risk infrastructure | Flagship research repo |
 | [CIPHER / Shaw Quant OS](https://github.com/shawsignaldev/cipher) | Python and PowerShell trading research terminal | Research tooling |
 | [ARES](https://github.com/shawsignaldev/ares) | Trading journal, post-trade analytics, and behavioral risk review | Process analytics |
