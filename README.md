@@ -32,6 +32,9 @@ Public engineering handle: **ShawSignalDev**. The portfolio is organized around 
 | Project | Focus | Status |
 | --- | --- | --- |
 | [FPGA Low-Latency Market Data Engine](https://github.com/shawsignaldev/fpga-low-latency-market-data-engine) | Parameterized Verilog market-data pipeline with sequence integrity, top-of-book state, deterministic cycle accounting, safety gating, self-checking RTL verification, Python golden model, and Xilinx Vivado/Basys 3 integration | Hardware / low-latency systems |
+| [FPGA Nanosecond Orderbook Risk Gate](https://github.com/shawsignaldev/fpga-nanosecond-orderbook-risk-gate) | Verilog orderbook safety core with add/replace/cancel state, exposure limits, sequence faults, kill switch, crossed-market halt, Python model, and self-checking RTL verification | Hardware risk gate |
+| [FPGA UDP Market Data Feed Handler](https://github.com/shawsignaldev/fpga-udp-market-data-feed-handler) | UDP-style packet parser with port/session filtering, payload extraction, sequence-gap/replay telemetry, checksum metadata, Python model, and RTL simulation | Hardware networking |
+| [FPGA Latency Arbitration Crossbar](https://github.com/shawsignaldev/fpga-latency-arbitration-crossbar) | Low-latency stream arbitration core with backpressure-safe buffering, round-robin routing, latency counters, Python model, and self-checking RTL testbench | Hardware data path |
 | [ARGUS](https://github.com/shawsignaldev/argus) | Control-theoretic quantitative research and risk infrastructure | Flagship research repo |
 | [CIPHER / Shaw Quant OS](https://github.com/shawsignaldev/cipher) | Python and PowerShell trading research terminal | Research tooling |
 | [ARES](https://github.com/shawsignaldev/ares) | Trading journal, post-trade analytics, and behavioral risk review | Process analytics |
