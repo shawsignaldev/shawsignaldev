@@ -24,6 +24,7 @@ jobs:
           test -f CHANGELOG.md
           test -f CONTRIBUTING.md
           test -f RESEARCH_READING_MAP.md
+          test -f ROLE_PACKETS.md
           test -f assets/profile-mark.svg
           test -f assets/shawsignaldev-avatar.png
           test -f papers/market-data-infrastructure-whitepaper.md

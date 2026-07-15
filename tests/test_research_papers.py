@@ -57,6 +57,34 @@ class ResearchPaperTests(unittest.TestCase):
         self.assertIn("RESEARCH_READING_MAP.md", readme)
         self.assertIn("RESEARCH_READING_MAP.md", packet)
 
+    def test_role_packets_are_curated_for_target_jobs(self) -> None:
+        path = ROOT / "ROLE_PACKETS.md"
+        self.assertTrue(path.exists(), "missing role packets")
+        text = path.read_text(encoding="utf-8")
+        required = [
+            "Hardware / FPGA Engineer",
+            "Quant Developer",
+            "Market Infrastructure Engineer",
+            "Cyber-Physical Systems Engineer",
+            "AI / Software Engineer",
+            "Research papers to read first",
+            "Primary repositories",
+            "Interview narrative",
+            "Risk and evidence boundary",
+            "fpga-low-latency-market-data-engine",
+            "agentic-strategy-search-lab",
+            "market-data-tickerplant-simulator",
+            "cpse-engineering-labs",
+            "llm-market-hypothesis-auditor",
+        ]
+        for phrase in required:
+            self.assertIn(phrase, text)
+
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        packet = (ROOT / "RECRUITER_PACKET.md").read_text(encoding="utf-8")
+        self.assertIn("ROLE_PACKETS.md", readme)
+        self.assertIn("ROLE_PACKETS.md", packet)
+
 
 if __name__ == "__main__":
     unittest.main()

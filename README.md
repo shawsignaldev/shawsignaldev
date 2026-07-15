@@ -38,6 +38,10 @@ Public engineering handle: **ShawSignalDev**. The portfolio is organized around 
 
 The [Research Reading Map](RESEARCH_READING_MAP.md) ties these papers and repositories to primary literature including DeepLOB, ABIDES, LOBFrame, FPGA HFT acceleration, and Precision Time Protocol security work.
 
+## Role Packets
+
+[ROLE_PACKETS.md](ROLE_PACKETS.md) gives direct review paths for Hardware / FPGA Engineer, Quant Developer, Market Infrastructure Engineer, Cyber-Physical Systems Engineer, and AI / Software Engineer roles.
+
 ## Featured Projects
 
 | Project | Focus | Status |

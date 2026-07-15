@@ -39,6 +39,10 @@ Ephraim Shaw is a Cyber-Physical Systems Engineering student at the University o
 
 The [Research Reading Map](RESEARCH_READING_MAP.md) connects those papers to DeepLOB, ABIDES, LOBFrame, FPGA HFT acceleration, Precision Time Protocol references, and the specific repositories that demonstrate implementation evidence.
 
+## Role Packets
+
+[ROLE_PACKETS.md](ROLE_PACKETS.md) gives direct review paths for Hardware / FPGA Engineer, Quant Developer, Market Infrastructure Engineer, Cyber-Physical Systems Engineer, and AI / Software Engineer screens. Use it when the reviewer needs a focused subset of the 200-repository portfolio.
+
 ## Interview Talking Points
 
 - Risk-first systems: why controls, caps, and review gates matter before speed.
