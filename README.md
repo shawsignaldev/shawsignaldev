@@ -36,6 +36,8 @@ Public engineering handle: **ShawSignalDev**. The portfolio is organized around 
 | [Strategy Robustness Whitepaper](papers/strategy-robustness-whitepaper.md) | Walk-forward validation, objective functions, promotion gates, options assumptions, and research governance | Quant developer, AI research tooling, fintech infrastructure |
 | [FPGA Trading Architecture Whitepaper](papers/fpga-trading-architecture-whitepaper.md) | Hardware/software trading datapath, parser and sequencer boundaries, golden models, risk gates, and verification strategy | Hardware engineering, CPSE, low-latency systems |
 
+The [Research Reading Map](RESEARCH_READING_MAP.md) ties these papers and repositories to primary literature including DeepLOB, ABIDES, LOBFrame, FPGA HFT acceleration, and Precision Time Protocol security work.
+
 ## Featured Projects
 
 | Project | Focus | Status |

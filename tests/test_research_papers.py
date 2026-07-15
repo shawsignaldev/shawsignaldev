@@ -32,6 +32,31 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn(f"papers/{filename}", readme)
             self.assertIn(f"papers/{filename}", packet)
 
+    def test_research_reading_map_links_papers_to_projects(self) -> None:
+        path = ROOT / "RESEARCH_READING_MAP.md"
+        self.assertTrue(path.exists(), "missing research reading map")
+        text = path.read_text(encoding="utf-8")
+        required = [
+            "DeepLOB",
+            "ABIDES",
+            "LOBFrame",
+            "High Frequency Trading Acceleration using FPGAs",
+            "Precision Time Protocol",
+            "https://arxiv.org/abs/1808.03668",
+            "https://arxiv.org/abs/1904.12066",
+            "https://arxiv.org/html/2403.09267",
+            "https://people.ucsc.edu/~hlitz/papers/hft_fpga.pdf",
+            "https://arxiv.org/abs/1603.00707",
+            "Evidence-bearing repositories",
+        ]
+        for phrase in required:
+            self.assertIn(phrase, text)
+
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        packet = (ROOT / "RECRUITER_PACKET.md").read_text(encoding="utf-8")
+        self.assertIn("RESEARCH_READING_MAP.md", readme)
+        self.assertIn("RESEARCH_READING_MAP.md", packet)
+
 
 if __name__ == "__main__":
     unittest.main()

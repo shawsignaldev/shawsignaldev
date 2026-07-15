@@ -37,6 +37,8 @@ Ephraim Shaw is a Cyber-Physical Systems Engineering student at the University o
 | [Strategy Robustness Whitepaper](papers/strategy-robustness-whitepaper.md) | Explains walk-forward validation, objective scoring, options assumptions, promotion gates, and honest limitations | Quant developer and AI research tooling screen |
 | [FPGA Trading Architecture Whitepaper](papers/fpga-trading-architecture-whitepaper.md) | Explains hardware/software trading datapaths, parser/sequencer/risk boundaries, golden models, and verification habits | Hardware engineer, FPGA, and CPSE screen |
 
+The [Research Reading Map](RESEARCH_READING_MAP.md) connects those papers to DeepLOB, ABIDES, LOBFrame, FPGA HFT acceleration, Precision Time Protocol references, and the specific repositories that demonstrate implementation evidence.
+
 ## Interview Talking Points
 
 - Risk-first systems: why controls, caps, and review gates matter before speed.
