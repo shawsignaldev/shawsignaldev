@@ -66,6 +66,11 @@ Public engineering handle: **ShawSignalDev**. The portfolio is organized around 
 | [AI Dashboard Commentary Engine](https://github.com/shawsignaldev/ai-dashboard-commentary-engine) | Metric-to-commentary generation for dashboards with direction, severity, and operator-readable summaries | Dashboard intelligence |
 | [Prompt Eval Lab](https://github.com/shawsignaldev/prompt-eval-lab) | Deterministic prompt-output rubric checks, forbidden-term detection, score aggregation, and pass-rate reporting | Prompt evaluation |
 | [LLM Trading Guardrails](https://github.com/shawsignaldev/llm-trading-guardrails) | Policy checks for unsafe certainty claims, approval-gate requirements, and sensitive-token redaction in trading research workflows | AI safety |
+| [Distributed Clock Sync Lab](https://github.com/shawsignaldev/distributed-clock-sync-lab) | Clock offset, delay, synchronization quality, and drift analysis for timing-sensitive distributed systems | Timing systems |
+| [Embedded Signal Processing Lab](https://github.com/shawsignaldev/embedded-signal-processing-lab) | Moving averages, exponential smoothing, DFT magnitudes, and threshold anomaly helpers for embedded DSP review | Embedded DSP |
+| [Operator Console Design System](https://github.com/shawsignaldev/operator-console-design-system) | Severity colors, density tokens, and compact status-card labels for serious operator dashboards | Design systems |
+| [Event-Driven Alpha Pipeline](https://github.com/shawsignaldev/event-driven-alpha-pipeline) | Deterministic market-event scoring and ranked alpha signal generation for research review | Event pipelines |
+| [Market Replay Hardware Harness](https://github.com/shawsignaldev/market-replay-hardware-harness) | Sequence validation, timestamp checks, event batching, and scaled-delay replay for hardware-style market testbenches | Replay harness |
 | [ARGUS](https://github.com/shawsignaldev/argus) | Control-theoretic quantitative research and risk infrastructure | Flagship research repo |
 | [CIPHER / Shaw Quant OS](https://github.com/shawsignaldev/cipher) | Python and PowerShell trading research terminal | Research tooling |
 | [ARES](https://github.com/shawsignaldev/ares) | Trading journal, post-trade analytics, and behavioral risk review | Process analytics |
