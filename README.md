@@ -61,6 +61,11 @@ Public engineering handle: **ShawSignalDev**. The portfolio is organized around 
 | [UDP Telemetry Control Plane](https://github.com/shawsignaldev/udp-telemetry-control-plane) | UDP telemetry checksum, sequence, channel validation, and command authorization model | Telemetry systems |
 | [Edge Device Health Monitor](https://github.com/shawsignaldev/edge-device-health-monitor) | Edge-device CPU, memory, temperature, heartbeat scoring, status classification, and operator summaries | Edge monitoring |
 | [Industrial Control Sim Lab](https://github.com/shawsignaldev/industrial-control-sim-lab) | PID-like first-order process simulation and persistent tracking-error fault detection | Control simulation |
+| [Financial Report Summarizer](https://github.com/shawsignaldev/financial-report-summarizer) | Deterministic revenue, margin, guidance, positive-language, and risk-language extraction for financial text review | Financial text analysis |
+| [Market News Signal Ranker](https://github.com/shawsignaldev/market-news-signal-ranker) | Catalyst scoring by source quality, recency, watchlist relevance, uncertainty, and event type for research triage | News research |
+| [AI Dashboard Commentary Engine](https://github.com/shawsignaldev/ai-dashboard-commentary-engine) | Metric-to-commentary generation for dashboards with direction, severity, and operator-readable summaries | Dashboard intelligence |
+| [Prompt Eval Lab](https://github.com/shawsignaldev/prompt-eval-lab) | Deterministic prompt-output rubric checks, forbidden-term detection, score aggregation, and pass-rate reporting | Prompt evaluation |
+| [LLM Trading Guardrails](https://github.com/shawsignaldev/llm-trading-guardrails) | Policy checks for unsafe certainty claims, approval-gate requirements, and sensitive-token redaction in trading research workflows | AI safety |
 | [ARGUS](https://github.com/shawsignaldev/argus) | Control-theoretic quantitative research and risk infrastructure | Flagship research repo |
 | [CIPHER / Shaw Quant OS](https://github.com/shawsignaldev/cipher) | Python and PowerShell trading research terminal | Research tooling |
 | [ARES](https://github.com/shawsignaldev/ares) | Trading journal, post-trade analytics, and behavioral risk review | Process analytics |
