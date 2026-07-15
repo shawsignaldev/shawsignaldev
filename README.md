@@ -28,6 +28,14 @@ Public engineering handle: **ShawSignalDev**. The portfolio is organized around 
 - Cyber-physical systems engineering
 - Clean Python tooling, dashboards, and technical documentation
 
+## Research Papers
+
+| Paper | What It Proves | Best Role Signal |
+| --- | --- | --- |
+| [Market Data Infrastructure Whitepaper](papers/market-data-infrastructure-whitepaper.md) | Low-latency market data architecture, event contracts, validation layers, replay, and honest operating boundaries | Market infrastructure, data engineering, FPGA systems |
+| [Strategy Robustness Whitepaper](papers/strategy-robustness-whitepaper.md) | Walk-forward validation, objective functions, promotion gates, options assumptions, and research governance | Quant developer, AI research tooling, fintech infrastructure |
+| [FPGA Trading Architecture Whitepaper](papers/fpga-trading-architecture-whitepaper.md) | Hardware/software trading datapath, parser and sequencer boundaries, golden models, risk gates, and verification strategy | Hardware engineering, CPSE, low-latency systems |
+
 ## Featured Projects
 
 | Project | Focus | Status |

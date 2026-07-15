@@ -25,3 +25,8 @@ jobs:
           test -f CONTRIBUTING.md
           test -f assets/profile-mark.svg
           test -f assets/shawsignaldev-avatar.png
+          test -f papers/market-data-infrastructure-whitepaper.md
+          test -f papers/strategy-robustness-whitepaper.md
+          test -f papers/fpga-trading-architecture-whitepaper.md
+      - name: Verify research paper links
+        run: python -m unittest discover -s tests -v

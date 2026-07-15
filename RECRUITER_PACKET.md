@@ -29,6 +29,14 @@ Ephraim Shaw is a Cyber-Physical Systems Engineering student at the University o
 | Eidenhall | Daily memo workflow, dashboard snapshot, control-plane diagram, operations runbook | `src/eidenhall/dashboard.py`, `src/eidenhall/memo.py`, `docs/system_design.md` |
 | M2M Learning Systems | Knowledge graph helpers, sanitized graph sample, review queue, scheduling workflow | `src/m2m/graph.py`, `examples/sample_knowledge_graph.json`, `docs/knowledge_graph_spec.md` |
 
+## Research Papers
+
+| Paper | Review Signal | Best Use |
+| --- | --- | --- |
+| [Market Data Infrastructure Whitepaper](papers/market-data-infrastructure-whitepaper.md) | Explains low-latency market data contracts, tickerplant design, replay, validation, and hardware-facing boundaries | Market infrastructure and data engineering screen |
+| [Strategy Robustness Whitepaper](papers/strategy-robustness-whitepaper.md) | Explains walk-forward validation, objective scoring, options assumptions, promotion gates, and honest limitations | Quant developer and AI research tooling screen |
+| [FPGA Trading Architecture Whitepaper](papers/fpga-trading-architecture-whitepaper.md) | Explains hardware/software trading datapaths, parser/sequencer/risk boundaries, golden models, and verification habits | Hardware engineer, FPGA, and CPSE screen |
+
 ## Interview Talking Points
 
 - Risk-first systems: why controls, caps, and review gates matter before speed.
