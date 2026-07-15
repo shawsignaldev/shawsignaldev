@@ -41,6 +41,11 @@ Public engineering handle: **ShawSignalDev**. The portfolio is organized around 
 | [Options EV Estimator](https://github.com/shawsignaldev/options-ev-estimator) | Black-Scholes inspired options expected-value estimator for same-day and nearest-weekly contract research when full chain history is unavailable | Options research |
 | [Agentic Quant Researcher](https://github.com/shawsignaldev/agentic-quant-researcher) | Deterministic strategy-candidate scoring and Markdown report generation for AI-assisted quant research workflows | AI research tooling |
 | [Latency Budget Workbench](https://github.com/shawsignaldev/latency-budget-workbench) | Latency decomposition, bottleneck detection, and budget-slack reporting for market infrastructure and cyber-physical systems | Systems engineering |
+| [Market Microstructure Lab](https://github.com/shawsignaldev/market-microstructure-lab) | VWAP, spread, close-location, volume-pressure, and opening-drive metrics for intraday market review | Market structure |
+| [Strategy Survivorship Analyzer](https://github.com/shawsignaldev/strategy-survivorship-analyzer) | Walk-forward persistence scoring, window-level expectancy, consistency, and promote/watchlist/reject verdicts | Strategy robustness |
+| [Fixed-Point Finance Lab](https://github.com/shawsignaldev/fixed-point-finance-lab) | FPGA-friendly price, basis-point, and EMA calculations using fixed-point integer math | FPGA finance math |
+| [Deterministic Trading State Machine](https://github.com/shawsignaldev/deterministic-trading-state-machine) | Auditable signal, risk, entry, management, and exit transitions for trading workflow design | State-machine design |
+| [Risk Gate Co-Simulation Lab](https://github.com/shawsignaldev/risk-gate-co-simulation-lab) | Python co-simulation harness connecting strategy signals to deterministic pre-trade risk approvals and rejections | Risk co-simulation |
 | [ARGUS](https://github.com/shawsignaldev/argus) | Control-theoretic quantitative research and risk infrastructure | Flagship research repo |
 | [CIPHER / Shaw Quant OS](https://github.com/shawsignaldev/cipher) | Python and PowerShell trading research terminal | Research tooling |
 | [ARES](https://github.com/shawsignaldev/ares) | Trading journal, post-trade analytics, and behavioral risk review | Process analytics |
