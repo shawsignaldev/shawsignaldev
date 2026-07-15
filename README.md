@@ -46,6 +46,11 @@ Public engineering handle: **ShawSignalDev**. The portfolio is organized around 
 | [Fixed-Point Finance Lab](https://github.com/shawsignaldev/fixed-point-finance-lab) | FPGA-friendly price, basis-point, and EMA calculations using fixed-point integer math | FPGA finance math |
 | [Deterministic Trading State Machine](https://github.com/shawsignaldev/deterministic-trading-state-machine) | Auditable signal, risk, entry, management, and exit transitions for trading workflow design | State-machine design |
 | [Risk Gate Co-Simulation Lab](https://github.com/shawsignaldev/risk-gate-co-simulation-lab) | Python co-simulation harness connecting strategy signals to deterministic pre-trade risk approvals and rejections | Risk co-simulation |
+| [Repo Context Engineer](https://github.com/shawsignaldev/repo-context-engineer) | GitHub repository scoring and Markdown context-brief generation for agentic engineering research | Context engineering |
+| [Obsidian Trading Memory Sync](https://github.com/shawsignaldev/obsidian-trading-memory-sync) | Obsidian Markdown frontmatter parser and SQLite sync layer for private trading research memory | Local memory systems |
+| [AI Runbook Operator](https://github.com/shawsignaldev/ai-runbook-operator) | Approval-gated runbook model with command risk classification and auditable dry-run traces | Agent operations |
+| [ESP32 Market Alert Display](https://github.com/shawsignaldev/esp32-market-alert-display) | Embedded-friendly alert prioritization and fixed-width display formatting for small market-monitor screens | Embedded alerts |
+| [Sensor Fusion Risk Monitor](https://github.com/shawsignaldev/sensor-fusion-risk-monitor) | CPSE anomaly scoring with per-channel baselines, fused z-scores, and operator risk summaries | Sensor fusion |
 | [ARGUS](https://github.com/shawsignaldev/argus) | Control-theoretic quantitative research and risk infrastructure | Flagship research repo |
 | [CIPHER / Shaw Quant OS](https://github.com/shawsignaldev/cipher) | Python and PowerShell trading research terminal | Research tooling |
 | [ARES](https://github.com/shawsignaldev/ares) | Trading journal, post-trade analytics, and behavioral risk review | Process analytics |
