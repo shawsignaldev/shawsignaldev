@@ -22,6 +22,7 @@ Public engineering handle: **ShawSignalDev**. The portfolio is organized around 
 ## Current Focus
 
 - Quantitative trading systems
+- FPGA/RTL market infrastructure and hardware-oriented verification
 - Research automation and operator workflow tooling
 - Market-data analytics and risk infrastructure
 - Cyber-physical systems engineering
@@ -31,10 +32,15 @@ Public engineering handle: **ShawSignalDev**. The portfolio is organized around 
 
 | Project | Focus | Status |
 | --- | --- | --- |
-| [FPGA Low-Latency Market Data Engine](https://github.com/shawsignaldev/fpga-low-latency-market-data-engine) | Parameterized Verilog market-data pipeline with sequence integrity, top-of-book state, deterministic cycle accounting, safety gating, self-checking RTL verification, Python golden model, and Xilinx Vivado/Basys 3 integration | Hardware / low-latency systems |
+| [FPGA Low-Latency Market Data Engine](https://github.com/shawsignaldev/fpga-low-latency-market-data-engine) | Parameterized Verilog market-data pipeline with sequence integrity, top-of-book state, deterministic cycle accounting, safety gating, self-checking RTL verification, Python golden model, and toolchain-ready documentation | Hardware / low-latency systems |
 | [FPGA Nanosecond Orderbook Risk Gate](https://github.com/shawsignaldev/fpga-nanosecond-orderbook-risk-gate) | Verilog orderbook safety core with add/replace/cancel state, exposure limits, sequence faults, kill switch, crossed-market halt, Python model, and self-checking RTL verification | Hardware risk gate |
 | [FPGA UDP Market Data Feed Handler](https://github.com/shawsignaldev/fpga-udp-market-data-feed-handler) | UDP-style packet parser with port/session filtering, payload extraction, sequence-gap/replay telemetry, checksum metadata, Python model, and RTL simulation | Hardware networking |
 | [FPGA Latency Arbitration Crossbar](https://github.com/shawsignaldev/fpga-latency-arbitration-crossbar) | Low-latency stream arbitration core with backpressure-safe buffering, round-robin routing, latency counters, Python model, and self-checking RTL testbench | Hardware data path |
+| [FPGA PCIe Market Data DMA Engine](https://github.com/shawsignaldev/fpga-pcie-market-data-dma-engine) | PCIe-style market-data DMA scheduler with descriptor validation, payload burst packetization, latency accounting, Python model, and Verilog module boundary | Hardware data movement |
+| [Shaw Alpha Lab](https://github.com/shawsignaldev/shaw-alpha-lab) | Opening-range momentum research framework with trade generation, risk/reward controls, expectancy, profit factor, and drawdown metrics | Quant research |
+| [Options EV Estimator](https://github.com/shawsignaldev/options-ev-estimator) | Black-Scholes inspired options expected-value estimator for same-day and nearest-weekly contract research when full chain history is unavailable | Options research |
+| [Agentic Quant Researcher](https://github.com/shawsignaldev/agentic-quant-researcher) | Deterministic strategy-candidate scoring and Markdown report generation for AI-assisted quant research workflows | AI research tooling |
+| [Latency Budget Workbench](https://github.com/shawsignaldev/latency-budget-workbench) | Latency decomposition, bottleneck detection, and budget-slack reporting for market infrastructure and cyber-physical systems | Systems engineering |
 | [ARGUS](https://github.com/shawsignaldev/argus) | Control-theoretic quantitative research and risk infrastructure | Flagship research repo |
 | [CIPHER / Shaw Quant OS](https://github.com/shawsignaldev/cipher) | Python and PowerShell trading research terminal | Research tooling |
 | [ARES](https://github.com/shawsignaldev/ares) | Trading journal, post-trade analytics, and behavioral risk review | Process analytics |
