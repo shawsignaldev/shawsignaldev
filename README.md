@@ -32,6 +32,11 @@ Public engineering handle: **ShawSignalDev**. The portfolio is organized around 
 
 | Project | Focus | Status |
 | --- | --- | --- |
+| [Shaw Latency Research Lab](https://github.com/shawsignaldev/shaw-latency-research-lab) | Advanced latency-budget and bottleneck-analysis capstone with technical note, design decisions, tests, and recruiter brief | Capstone research lab |
+| [Market Microstructure Research Platform](https://github.com/shawsignaldev/market-microstructure-research-platform) | LOB imbalance, depth, and pressure feature platform grounded in microstructure forecasting literature | Capstone quant research |
+| [FPGA Trading System SoC](https://github.com/shawsignaldev/fpga-trading-system-soc) | Hardware/software trading-system datapath model connecting packet intake, risk gating, and order-intent boundaries | Capstone FPGA systems |
+| [AI Quant Research OS](https://github.com/shawsignaldev/ai-quant-research-os) | Approval-gated agentic quant research workflow with candidate scoring, evidence gates, and auditable Markdown queues | Capstone AI/quant system |
+| [Hardware Software Co-Design Lab](https://github.com/shawsignaldev/hardware-software-co-design-lab) | Python/fixed-point algorithm comparison lab for finance and CPSE co-design with explicit error measurement | Capstone co-design lab |
 | [FPGA Low-Latency Market Data Engine](https://github.com/shawsignaldev/fpga-low-latency-market-data-engine) | Parameterized Verilog market-data pipeline with sequence integrity, top-of-book state, deterministic cycle accounting, safety gating, self-checking RTL verification, Python golden model, and toolchain-ready documentation | Hardware / low-latency systems |
 | [FPGA Nanosecond Orderbook Risk Gate](https://github.com/shawsignaldev/fpga-nanosecond-orderbook-risk-gate) | Verilog orderbook safety core with add/replace/cancel state, exposure limits, sequence faults, kill switch, crossed-market halt, Python model, and self-checking RTL verification | Hardware risk gate |
 | [FPGA UDP Market Data Feed Handler](https://github.com/shawsignaldev/fpga-udp-market-data-feed-handler) | UDP-style packet parser with port/session filtering, payload extraction, sequence-gap/replay telemetry, checksum metadata, Python model, and RTL simulation | Hardware networking |
