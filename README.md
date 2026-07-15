@@ -56,6 +56,11 @@ Public engineering handle: **ShawSignalDev**. The portfolio is organized around 
 | [FPGA Hardware Timestamping Core](https://github.com/shawsignaldev/fpga-hardware-timestamping-core) | Timestamp normalization, event ordering, skew analysis, and channel monotonicity checks for feed pipelines | Hardware timestamping |
 | [Market Data Line-Rate Simulator](https://github.com/shawsignaldev/market-data-line-rate-simulator) | Burst, queue, drop, peak-depth, and utilization simulator for feed-handler capacity planning | Market data capacity |
 | [Execution Router Simulator](https://github.com/shawsignaldev/execution-router-simulator) | Venue scoring by latency, fee, fill probability, and risk penalty for deterministic routing review | Execution infrastructure |
+| [Cyber-Physical Threat Models](https://github.com/shawsignaldev/cyber-physical-threat-models) | Sanitized CPSE threat modeling with severity, likelihood, detectability, mitigation, residual risk, and Markdown registers | CPSE security |
+| [Real-Time Scheduler Lab](https://github.com/shawsignaldev/real-time-scheduler-lab) | Periodic task utilization, rate-monotonic bounds, EDF scheduling, and deadline-miss analysis | Real-time systems |
+| [UDP Telemetry Control Plane](https://github.com/shawsignaldev/udp-telemetry-control-plane) | UDP telemetry checksum, sequence, channel validation, and command authorization model | Telemetry systems |
+| [Edge Device Health Monitor](https://github.com/shawsignaldev/edge-device-health-monitor) | Edge-device CPU, memory, temperature, heartbeat scoring, status classification, and operator summaries | Edge monitoring |
+| [Industrial Control Sim Lab](https://github.com/shawsignaldev/industrial-control-sim-lab) | PID-like first-order process simulation and persistent tracking-error fault detection | Control simulation |
 | [ARGUS](https://github.com/shawsignaldev/argus) | Control-theoretic quantitative research and risk infrastructure | Flagship research repo |
 | [CIPHER / Shaw Quant OS](https://github.com/shawsignaldev/cipher) | Python and PowerShell trading research terminal | Research tooling |
 | [ARES](https://github.com/shawsignaldev/ares) | Trading journal, post-trade analytics, and behavioral risk review | Process analytics |
