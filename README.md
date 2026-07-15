@@ -51,6 +51,11 @@ Public engineering handle: **ShawSignalDev**. The portfolio is organized around 
 | [AI Runbook Operator](https://github.com/shawsignaldev/ai-runbook-operator) | Approval-gated runbook model with command risk classification and auditable dry-run traces | Agent operations |
 | [ESP32 Market Alert Display](https://github.com/shawsignaldev/esp32-market-alert-display) | Embedded-friendly alert prioritization and fixed-width display formatting for small market-monitor screens | Embedded alerts |
 | [Sensor Fusion Risk Monitor](https://github.com/shawsignaldev/sensor-fusion-risk-monitor) | CPSE anomaly scoring with per-channel baselines, fused z-scores, and operator risk summaries | Sensor fusion |
+| [FPGA FIX Protocol Parser](https://github.com/shawsignaldev/fpga-fix-protocol-parser) | Hardware-oriented FIX tag-value parser with required order-field validation, normalized order intents, tests, and RTL boundary | Market connectivity |
+| [FPGA LOB Reconstruction Engine](https://github.com/shawsignaldev/fpga-lob-reconstruction-engine) | Limit-order-book reconstruction model with add/modify/cancel/trade transitions, top-of-book state, and crossed-market detection | Order book hardware model |
+| [FPGA Hardware Timestamping Core](https://github.com/shawsignaldev/fpga-hardware-timestamping-core) | Timestamp normalization, event ordering, skew analysis, and channel monotonicity checks for feed pipelines | Hardware timestamping |
+| [Market Data Line-Rate Simulator](https://github.com/shawsignaldev/market-data-line-rate-simulator) | Burst, queue, drop, peak-depth, and utilization simulator for feed-handler capacity planning | Market data capacity |
+| [Execution Router Simulator](https://github.com/shawsignaldev/execution-router-simulator) | Venue scoring by latency, fee, fill probability, and risk penalty for deterministic routing review | Execution infrastructure |
 | [ARGUS](https://github.com/shawsignaldev/argus) | Control-theoretic quantitative research and risk infrastructure | Flagship research repo |
 | [CIPHER / Shaw Quant OS](https://github.com/shawsignaldev/cipher) | Python and PowerShell trading research terminal | Research tooling |
 | [ARES](https://github.com/shawsignaldev/ares) | Trading journal, post-trade analytics, and behavioral risk review | Process analytics |
