@@ -18,7 +18,7 @@ The standard for a promoted project is:
 | --- | --- | --- | --- | --- |
 | Low-latency FPGA datapath | Shared Market Packet Fixtures (`shared-market-packet-fixtures`) | Market infrastructure | High Frequency Trading Acceleration using FPGAs | Shared event schema, parser fixtures, tests across at least three repos |
 | Low-latency FPGA datapath | FPGA Orderflow Formal Properties (`fpga-orderflow-formal-properties`) | FPGA verification | High Frequency Trading Acceleration using FPGAs | Safety and liveness properties for sequence, replay, exposure caps, halt latch behavior, valid side encoding, bounded acknowledgement latency, and coverage matrix review |
-| LOB intelligence | lob-benchmark-report-generator | Quant developer | DeepLOB, LOBFrame | Reproducible report comparing baseline, queue, and deep-feature metrics |
+| LOB intelligence | LOB Benchmark Report Generator (`lob-benchmark-report-generator`) | Quant developer | DeepLOB, LOBFrame | Reproducible report comparing baseline, queue, and deep-feature metrics with cost-adjusted PnL, Brier calibration, latency pass rates, and Markdown reports |
 | LOB intelligence | market-sim-scenario-library | Quant research | ABIDES | Stress, halt, auction, latency, and liquidity-drought scenarios with deterministic seeds |
 | Options research | synthetic-options-chain-generator | Options research | Strategy Robustness Whitepaper | Generated chain with IV, delta, theta, spread, volume, and expiry checks |
 | Options research | option-replay-report-engine | Quant developer | Strategy Robustness Whitepaper | Per-contract PnL attribution separating edge, slippage, theta, and volatility |

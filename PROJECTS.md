@@ -15,6 +15,7 @@ This file tracks the projects represented in the public GitHub portfolio plan.
 | Market Data Ingestion Lab | OHLCV ingestion, validation, cleaning, and data-quality reporting |
 | Shared Market Packet Fixtures | Canonical sanitized market packet fixtures for FPGA, replay, tickerplant, and simulation tests; repository `shared-market-packet-fixtures` |
 | FPGA Orderflow Formal Properties | SVA-style order-flow property pack for sequence, replay, exposure cap, halt latch, valid side, bounded acknowledgement latency, and coverage matrix review; repository `fpga-orderflow-formal-properties` |
+| LOB Benchmark Report Generator | DeepLOB/LOBFrame-style benchmark reporting with cost-adjusted PnL, Brier calibration, expected value, latency pass rates, drawdown, and Markdown reports; repository `lob-benchmark-report-generator` |
 | CPSE Engineering Labs | Sanitized embedded systems, networking, and sensors portfolio |
 | Eidenhall | Sanitized dashboard orchestration and daily memo automation |
 | M2M Learning Systems | Sanitized homework, mock-exam, and concept-graph workflows |

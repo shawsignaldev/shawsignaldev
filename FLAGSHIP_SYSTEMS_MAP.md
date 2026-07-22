@@ -57,6 +57,7 @@ Useful quant ML requires market microstructure realism: limit order book feature
 - `deeplob-reproduction-lab`
 - `hlob-feature-research`
 - `lobframe-benchmark-suite`
+- `lob-benchmark-report-generator` (LOB Benchmark Report Generator: cost-adjusted, Brier, latency pass, and Markdown reports)
 - `abides-market-sim-lab`
 - `queue-reactive-orderbook-model`
 - `lob-transformer-reproduction`
