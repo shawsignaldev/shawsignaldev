@@ -50,6 +50,10 @@ The [Research Reading Map](RESEARCH_READING_MAP.md) ties these papers and reposi
 
 [FLAGSHIP_SYSTEMS_MAP.md](FLAGSHIP_SYSTEMS_MAP.md) groups the portfolio into five flagship research programs: low-latency market data and FPGA trading datapath, limit order book intelligence and market simulation, options microstructure and 0DTE research, AI-governed quant research, and cyber-physical timing/control systems.
 
+## Advanced Research Build Queue
+
+[ADVANCED_RESEARCH_BUILD_QUEUE.md](ADVANCED_RESEARCH_BUILD_QUEUE.md) defines the next paper-anchored repository waves, promotion criteria, role signal, and proof required before a project is added to the flagship systems.
+
 ## Reproducibility Guide
 
 [REPRODUCIBILITY_GUIDE.md](REPRODUCIBILITY_GUIDE.md) gives exact profile verification, site verification, representative repository verification, GitHub Actions, live readback, and repo-count commands.

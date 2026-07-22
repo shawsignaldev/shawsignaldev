@@ -51,6 +51,10 @@ The [Research Reading Map](RESEARCH_READING_MAP.md) connects those papers to Dee
 
 [FLAGSHIP_SYSTEMS_MAP.md](FLAGSHIP_SYSTEMS_MAP.md) turns the 200-repository portfolio into five coherent research programs so reviewers can inspect depth, paper-backed foundations, proof artifacts, and next research upgrades instead of reading unrelated repositories one by one.
 
+## Advanced Research Build Queue
+
+[ADVANCED_RESEARCH_BUILD_QUEUE.md](ADVANCED_RESEARCH_BUILD_QUEUE.md) records the next advanced build waves with selection standard, paper anchors, role signal, and proof required before promotion. It shows how the portfolio grows intentionally instead of through count-only expansion.
+
 ## Reproducibility Guide
 
 [REPRODUCIBILITY_GUIDE.md](REPRODUCIBILITY_GUIDE.md) gives exact commands for profile verification, site verification, representative repository verification, GitHub Actions checks, and live readback.

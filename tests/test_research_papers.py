@@ -173,6 +173,40 @@ class ResearchPaperTests(unittest.TestCase):
         self.assertIn("FLAGSHIP_SYSTEMS_MAP.md", readme)
         self.assertIn("FLAGSHIP_SYSTEMS_MAP.md", packet)
 
+    def test_advanced_research_build_queue_has_paper_anchored_project_specs(self) -> None:
+        path = ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md"
+        self.assertTrue(path.exists(), "missing advanced research build queue")
+        text = path.read_text(encoding="utf-8")
+        required = [
+            "Advanced Research Build Queue",
+            "Selection standard",
+            "Flagship system",
+            "Repository concept",
+            "Role signal",
+            "Paper anchor",
+            "Proof required before promotion",
+            "Wave 1: Flagship Hardening",
+            "Wave 2: Paper Reproduction and Benchmarking",
+            "Wave 3: Hardware Acceleration and Formal Verification",
+            "Wave 4: Options and Intraday Trading Research",
+            "Wave 5: Cyber-Physical and Operator Systems",
+            "DeepLOB",
+            "ABIDES",
+            "LOBFrame",
+            "LOB-Bench",
+            "LOBIN",
+            "High Frequency Trading Acceleration using FPGAs",
+            "not count-only expansion",
+        ]
+        for phrase in required:
+            self.assertIn(phrase, text)
+        self.assertGreaterEqual(text.count("|"), 160)
+
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        packet = (ROOT / "RECRUITER_PACKET.md").read_text(encoding="utf-8")
+        self.assertIn("ADVANCED_RESEARCH_BUILD_QUEUE.md", readme)
+        self.assertIn("ADVANCED_RESEARCH_BUILD_QUEUE.md", packet)
+
 
 if __name__ == "__main__":
     unittest.main()
