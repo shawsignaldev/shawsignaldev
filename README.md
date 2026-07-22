@@ -46,6 +46,10 @@ The [Research Reading Map](RESEARCH_READING_MAP.md) ties these papers and reposi
 
 [PORTFOLIO_EVIDENCE_LEDGER.md](PORTFOLIO_EVIDENCE_LEDGER.md) maps capability claims to public proof artifacts, validation method, and honest boundary so reviewers can distinguish implemented evidence from roadmap ambition.
 
+## Flagship Systems Map
+
+[FLAGSHIP_SYSTEMS_MAP.md](FLAGSHIP_SYSTEMS_MAP.md) groups the portfolio into five flagship research programs: low-latency market data and FPGA trading datapath, limit order book intelligence and market simulation, options microstructure and 0DTE research, AI-governed quant research, and cyber-physical timing/control systems.
+
 ## Reproducibility Guide
 
 [REPRODUCIBILITY_GUIDE.md](REPRODUCIBILITY_GUIDE.md) gives exact profile verification, site verification, representative repository verification, GitHub Actions, live readback, and repo-count commands.

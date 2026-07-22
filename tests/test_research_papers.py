@@ -142,6 +142,37 @@ class ResearchPaperTests(unittest.TestCase):
         self.assertIn("REPRODUCIBILITY_GUIDE.md", readme)
         self.assertIn("REPRODUCIBILITY_GUIDE.md", packet)
 
+    def test_flagship_systems_map_turns_repos_into_research_programs(self) -> None:
+        path = ROOT / "FLAGSHIP_SYSTEMS_MAP.md"
+        self.assertTrue(path.exists(), "missing flagship systems map")
+        text = path.read_text(encoding="utf-8")
+        required = [
+            "Flagship Systems Map",
+            "Why this exists",
+            "Flagship 1: Low-Latency Market Data and FPGA Trading Datapath",
+            "Flagship 2: Limit Order Book Intelligence and Market Simulation",
+            "Flagship 3: Options Microstructure and 0DTE Research OS",
+            "Flagship 4: AI-Governed Quant Research Factory",
+            "Flagship 5: Cyber-Physical Timing, Control, and Operator Systems",
+            "Primary thesis",
+            "Core repositories",
+            "Paper-backed foundation",
+            "Proof artifacts reviewers should inspect",
+            "Next research upgrades",
+            "DeepLOB",
+            "ABIDES",
+            "LOBFrame",
+            "High Frequency Trading Acceleration using FPGAs",
+            "not isolated repo count",
+        ]
+        for phrase in required:
+            self.assertIn(phrase, text)
+
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        packet = (ROOT / "RECRUITER_PACKET.md").read_text(encoding="utf-8")
+        self.assertIn("FLAGSHIP_SYSTEMS_MAP.md", readme)
+        self.assertIn("FLAGSHIP_SYSTEMS_MAP.md", packet)
+
 
 if __name__ == "__main__":
     unittest.main()

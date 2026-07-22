@@ -47,6 +47,10 @@ The [Research Reading Map](RESEARCH_READING_MAP.md) connects those papers to Dee
 
 [PORTFOLIO_EVIDENCE_LEDGER.md](PORTFOLIO_EVIDENCE_LEDGER.md) maps each major capability to public proof artifacts, validation method, and honest boundary. Use it when a reviewer wants to audit what is actually demonstrated.
 
+## Flagship Systems Map
+
+[FLAGSHIP_SYSTEMS_MAP.md](FLAGSHIP_SYSTEMS_MAP.md) turns the 200-repository portfolio into five coherent research programs so reviewers can inspect depth, paper-backed foundations, proof artifacts, and next research upgrades instead of reading unrelated repositories one by one.
+
 ## Reproducibility Guide
 
 [REPRODUCIBILITY_GUIDE.md](REPRODUCIBILITY_GUIDE.md) gives exact commands for profile verification, site verification, representative repository verification, GitHub Actions checks, and live readback.

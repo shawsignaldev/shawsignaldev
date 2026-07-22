@@ -26,6 +26,7 @@ jobs:
           test -f RESEARCH_READING_MAP.md
           test -f ROLE_PACKETS.md
           test -f PORTFOLIO_EVIDENCE_LEDGER.md
+          test -f FLAGSHIP_SYSTEMS_MAP.md
           test -f REPRODUCIBILITY_GUIDE.md
           test -f assets/profile-mark.svg
           test -f assets/shawsignaldev-avatar.png
