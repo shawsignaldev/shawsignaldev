@@ -107,6 +107,7 @@ The [Research Reading Map](RESEARCH_READING_MAP.md) ties these papers and reposi
 | [Jump Diffusion Options Lab](https://github.com/shawsignaldev/jump-diffusion-options-lab) | Event-risk jump counts, jump-diffusion price steps, and volatility premium estimates | Options event risk |
 | [Liquidity Fragility Stress Lab](https://github.com/shawsignaldev/liquidity-fragility-stress-lab) | Depth depletion, resilience, and spread/depth fragility scoring for stressed books | Liquidity stress |
 | [FPGA AXI Stream Verifier](https://github.com/shawsignaldev/fpga-axi-stream-verifier) | AXI-stream handshake counts, packet boundary checks, and backpressure measurement | FPGA verification |
+| [FPGA Orderflow Formal Properties](https://github.com/shawsignaldev/fpga-orderflow-formal-properties) | SVA-style order-flow properties for sequence monotonicity, replay prevention, exposure caps, halt latch behavior, valid side encoding, bounded acknowledgement latency, and coverage matrix review | FPGA formal verification |
 | [FPGA CDC Metastability Lab](https://github.com/shawsignaldev/fpga-cdc-metastability-lab) | Clock-domain crossing policy checks, synchronizer MTBF estimates, and risk levels | FPGA CDC |
 | [PTP Servo Controller Lab](https://github.com/shawsignaldev/ptp-servo-controller-lab) | Clock-servo PI correction, clamp logic, and offset convergence checks | Timing control |
 | [eBPF Market Telemetry Lab](https://github.com/shawsignaldev/ebpf-market-telemetry-lab) | Per-flow latency, drop-rate summaries, and market-data health verdicts | Observability |

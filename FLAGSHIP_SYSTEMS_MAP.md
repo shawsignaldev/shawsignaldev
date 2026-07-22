@@ -20,6 +20,7 @@ Market data systems need deterministic parsing, sequencing, timestamping, buffer
 - `fpga-latency-arbitration-crossbar`
 - `fpga-pcie-market-data-dma-engine`
 - `shared-market-packet-fixtures` (Shared Market Packet Fixtures)
+- `fpga-orderflow-formal-properties` (FPGA Orderflow Formal Properties: halt latch and bounded acknowledgement latency property pack)
 - `nasdaq-itch-parser-rtl-lab`
 - `multicast-feed-arbitration-fpga`
 - `ptp-nanosecond-timestamp-core`
@@ -42,7 +43,7 @@ Market data systems need deterministic parsing, sequencing, timestamping, buffer
 
 - Add cocotb-style verification examples where toolchain access is available.
 - Add a shared packet fixture format across ITCH, UDP, DMA, risk, and replay repositories.
-- Add formal-style property documentation for ordering, backpressure, kill switch, and sequence-gap invariants.
+- Add formal-style property documentation for ordering, backpressure, kill switch, halt latch, bounded acknowledgement latency, and sequence-gap invariants.
 
 ## Flagship 2: Limit Order Book Intelligence and Market Simulation
 

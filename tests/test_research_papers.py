@@ -219,6 +219,20 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("shared-market-packet-fixtures", text)
             self.assertIn("Shared Market Packet Fixtures", text)
 
+    def test_fpga_orderflow_formal_properties_is_promoted_as_hardware_verification(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("fpga-orderflow-formal-properties", text)
+            self.assertIn("FPGA Orderflow Formal Properties", text)
+            self.assertIn("halt latch", text)
+            self.assertIn("bounded acknowledgement latency", text)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -14,6 +14,7 @@ This file tracks the projects represented in the public GitHub portfolio plan.
 | Aurora Market Network Explorer | Streamlit correlation-network dashboard |
 | Market Data Ingestion Lab | OHLCV ingestion, validation, cleaning, and data-quality reporting |
 | Shared Market Packet Fixtures | Canonical sanitized market packet fixtures for FPGA, replay, tickerplant, and simulation tests; repository `shared-market-packet-fixtures` |
+| FPGA Orderflow Formal Properties | SVA-style order-flow property pack for sequence, replay, exposure cap, halt latch, valid side, bounded acknowledgement latency, and coverage matrix review; repository `fpga-orderflow-formal-properties` |
 | CPSE Engineering Labs | Sanitized embedded systems, networking, and sensors portfolio |
 | Eidenhall | Sanitized dashboard orchestration and daily memo automation |
 | M2M Learning Systems | Sanitized homework, mock-exam, and concept-graph workflows |
