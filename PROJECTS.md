@@ -16,6 +16,7 @@ This file tracks the projects represented in the public GitHub portfolio plan.
 | Shared Market Packet Fixtures | Canonical sanitized market packet fixtures for FPGA, replay, tickerplant, and simulation tests; repository `shared-market-packet-fixtures` |
 | FPGA Orderflow Formal Properties | SVA-style order-flow property pack for sequence, replay, exposure cap, halt latch, valid side, bounded acknowledgement latency, and coverage matrix review; repository `fpga-orderflow-formal-properties` |
 | LOB Benchmark Report Generator | DeepLOB/LOBFrame-style benchmark reporting with cost-adjusted PnL, Brier calibration, expected value, latency pass rates, drawdown, and Markdown reports; repository `lob-benchmark-report-generator` |
+| Synthetic Options Chain Generator | Synthetic options-chain fixtures with IV skew, Greeks, bid/ask spread, volume, open interest, liquidity scoring, and target-delta selection; repository `synthetic-options-chain-generator` |
 | CPSE Engineering Labs | Sanitized embedded systems, networking, and sensors portfolio |
 | Eidenhall | Sanitized dashboard orchestration and daily memo automation |
 | M2M Learning Systems | Sanitized homework, mock-exam, and concept-graph workflows |
