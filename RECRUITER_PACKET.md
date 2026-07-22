@@ -47,6 +47,10 @@ The [Research Reading Map](RESEARCH_READING_MAP.md) connects those papers to Dee
 
 [PORTFOLIO_EVIDENCE_LEDGER.md](PORTFOLIO_EVIDENCE_LEDGER.md) maps each major capability to public proof artifacts, validation method, and honest boundary. Use it when a reviewer wants to audit what is actually demonstrated.
 
+## Reproducibility Guide
+
+[REPRODUCIBILITY_GUIDE.md](REPRODUCIBILITY_GUIDE.md) gives exact commands for profile verification, site verification, representative repository verification, GitHub Actions checks, and live readback.
+
 ## Interview Talking Points
 
 - Risk-first systems: why controls, caps, and review gates matter before speed.

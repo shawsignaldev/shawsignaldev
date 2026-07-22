@@ -46,6 +46,10 @@ The [Research Reading Map](RESEARCH_READING_MAP.md) ties these papers and reposi
 
 [PORTFOLIO_EVIDENCE_LEDGER.md](PORTFOLIO_EVIDENCE_LEDGER.md) maps capability claims to public proof artifacts, validation method, and honest boundary so reviewers can distinguish implemented evidence from roadmap ambition.
 
+## Reproducibility Guide
+
+[REPRODUCIBILITY_GUIDE.md](REPRODUCIBILITY_GUIDE.md) gives exact profile verification, site verification, representative repository verification, GitHub Actions, live readback, and repo-count commands.
+
 ## Featured Projects
 
 | Project | Focus | Status |

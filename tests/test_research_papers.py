@@ -114,6 +114,34 @@ class ResearchPaperTests(unittest.TestCase):
         self.assertIn("PORTFOLIO_EVIDENCE_LEDGER.md", readme)
         self.assertIn("PORTFOLIO_EVIDENCE_LEDGER.md", packet)
 
+    def test_reproducibility_guide_has_exact_verification_commands(self) -> None:
+        path = ROOT / "REPRODUCIBILITY_GUIDE.md"
+        self.assertTrue(path.exists(), "missing reproducibility guide")
+        text = path.read_text(encoding="utf-8")
+        required = [
+            "Reproducibility Guide",
+            "Profile verification",
+            "Site verification",
+            "Representative repository verification",
+            "gh run list",
+            "python -m unittest discover -s tests -v",
+            "python -m pytest -q -p no:cacheprovider",
+            "git status --short",
+            "shawsignaldev.github.io",
+            "fpga-low-latency-market-data-engine",
+            "agentic-strategy-search-lab",
+            "market-data-tickerplant-simulator",
+            "What this proves",
+            "What this does not prove",
+        ]
+        for phrase in required:
+            self.assertIn(phrase, text)
+
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        packet = (ROOT / "RECRUITER_PACKET.md").read_text(encoding="utf-8")
+        self.assertIn("REPRODUCIBILITY_GUIDE.md", readme)
+        self.assertIn("REPRODUCIBILITY_GUIDE.md", packet)
+
 
 if __name__ == "__main__":
     unittest.main()
