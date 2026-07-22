@@ -85,6 +85,35 @@ class ResearchPaperTests(unittest.TestCase):
         self.assertIn("ROLE_PACKETS.md", readme)
         self.assertIn("ROLE_PACKETS.md", packet)
 
+    def test_evidence_ledger_maps_capabilities_to_proof(self) -> None:
+        path = ROOT / "PORTFOLIO_EVIDENCE_LEDGER.md"
+        self.assertTrue(path.exists(), "missing portfolio evidence ledger")
+        text = path.read_text(encoding="utf-8")
+        required = [
+            "Evidence Ledger",
+            "Capability",
+            "Public proof artifacts",
+            "Validation method",
+            "Honest boundary",
+            "Low-latency market data",
+            "Strategy robustness",
+            "FPGA and hardware verification",
+            "Cyber-physical systems",
+            "AI research governance",
+            "Recruiter-facing organization",
+            "green CI",
+            "role packets",
+            "whitepapers",
+            "reading map",
+        ]
+        for phrase in required:
+            self.assertIn(phrase, text)
+
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        packet = (ROOT / "RECRUITER_PACKET.md").read_text(encoding="utf-8")
+        self.assertIn("PORTFOLIO_EVIDENCE_LEDGER.md", readme)
+        self.assertIn("PORTFOLIO_EVIDENCE_LEDGER.md", packet)
+
 
 if __name__ == "__main__":
     unittest.main()

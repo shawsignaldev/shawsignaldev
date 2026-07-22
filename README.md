@@ -42,6 +42,10 @@ The [Research Reading Map](RESEARCH_READING_MAP.md) ties these papers and reposi
 
 [ROLE_PACKETS.md](ROLE_PACKETS.md) gives direct review paths for Hardware / FPGA Engineer, Quant Developer, Market Infrastructure Engineer, Cyber-Physical Systems Engineer, and AI / Software Engineer roles.
 
+## Evidence Ledger
+
+[PORTFOLIO_EVIDENCE_LEDGER.md](PORTFOLIO_EVIDENCE_LEDGER.md) maps capability claims to public proof artifacts, validation method, and honest boundary so reviewers can distinguish implemented evidence from roadmap ambition.
+
 ## Featured Projects
 
 | Project | Focus | Status |

@@ -43,6 +43,10 @@ The [Research Reading Map](RESEARCH_READING_MAP.md) connects those papers to Dee
 
 [ROLE_PACKETS.md](ROLE_PACKETS.md) gives direct review paths for Hardware / FPGA Engineer, Quant Developer, Market Infrastructure Engineer, Cyber-Physical Systems Engineer, and AI / Software Engineer screens. Use it when the reviewer needs a focused subset of the 200-repository portfolio.
 
+## Evidence Ledger
+
+[PORTFOLIO_EVIDENCE_LEDGER.md](PORTFOLIO_EVIDENCE_LEDGER.md) maps each major capability to public proof artifacts, validation method, and honest boundary. Use it when a reviewer wants to audit what is actually demonstrated.
+
 ## Interview Talking Points
 
 - Risk-first systems: why controls, caps, and review gates matter before speed.
