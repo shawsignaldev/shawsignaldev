@@ -263,6 +263,22 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("open interest", text)
             self.assertIn("target-delta", text)
 
+    def test_option_replay_report_engine_is_promoted_as_options_pnl_attribution(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("option-replay-report-engine", text)
+            self.assertIn("Option Replay Report Engine", text)
+            self.assertIn("contract PnL", text)
+            self.assertIn("theta drag", text)
+            self.assertIn("volatility contribution", text)
+            self.assertIn("verdict", text)
+
 
 if __name__ == "__main__":
     unittest.main()

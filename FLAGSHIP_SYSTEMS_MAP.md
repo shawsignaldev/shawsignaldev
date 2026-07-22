@@ -97,6 +97,7 @@ Short-dated options research needs contract selection, liquidity checks, gamma a
 - `zero-dte-options-backtester`
 - `options-ev-estimator`
 - `synthetic-options-chain-generator` (Synthetic Options Chain Generator: IV skew, Greeks, open interest, and target-delta fixtures)
+- `option-replay-report-engine` (Option Replay Report Engine: per-contract PnL attribution across fees, liquidity cost, theta drag, volatility contribution, reward-to-risk, and promotion verdicts)
 - `gamma-exposure-estimator`
 - `dealer-gamma-feedback-lab`
 - `options-flow-anomaly-detector`
