@@ -13,6 +13,7 @@ This file tracks the projects represented in the public GitHub portfolio plan.
 | Deploq | Risk-first trading operator platform product architecture |
 | Aurora Market Network Explorer | Streamlit correlation-network dashboard |
 | Market Data Ingestion Lab | OHLCV ingestion, validation, cleaning, and data-quality reporting |
+| Shared Market Packet Fixtures | Canonical sanitized market packet fixtures for FPGA, replay, tickerplant, and simulation tests; repository `shared-market-packet-fixtures` |
 | CPSE Engineering Labs | Sanitized embedded systems, networking, and sensors portfolio |
 | Eidenhall | Sanitized dashboard orchestration and daily memo automation |
 | M2M Learning Systems | Sanitized homework, mock-exam, and concept-graph workflows |

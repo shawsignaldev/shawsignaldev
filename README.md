@@ -121,6 +121,7 @@ The [Research Reading Map](RESEARCH_READING_MAP.md) ties these papers and reposi
 | [FPGA FIFO Depth Planner](https://github.com/shawsignaldev/fpga-fifo-depth-planner) | Burst-depth sizing, overflow simulation, and FIFO headroom metrics | FPGA capacity |
 | [Hardware Cache Coherence Lab](https://github.com/shawsignaldev/hardware-cache-coherence-lab) | MESI-style state transitions, invalidation handling, and event replay | Computer architecture |
 | [Market Data Schema Contracts](https://github.com/shawsignaldev/market-data-schema-contracts) | Required-field checks, type validation, sequence gaps, and data-contract verdicts | Data quality |
+| [Shared Market Packet Fixtures](https://github.com/shawsignaldev/shared-market-packet-fixtures) | Canonical packet contract, CSV round trip, sequence-gap detection, deterministic fingerprints, and top-of-book projection for FPGA/replay/simulation tests | Market data fixtures |
 | [Incident Response Runbook Engine](https://github.com/shawsignaldev/incident-response-runbook-engine) | Severity escalation, next-step selection, and incident runbook state summaries | Operations |
 | [Cross Venue Latency Arbitrage Lab](https://github.com/shawsignaldev/cross-venue-latency-arbitrage-lab) | Latency-adjusted venue quotes, fee-adjusted edges, and cross-venue opportunity ranking | Venue microstructure |
 | [Options Market Maker Greeks Lab](https://github.com/shawsignaldev/options-market-maker-greeks-lab) | Delta/gamma/vega aggregation, delta hedge sizing, and risk bucket classification | Options market making |

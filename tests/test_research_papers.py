@@ -207,6 +207,18 @@ class ResearchPaperTests(unittest.TestCase):
         self.assertIn("ADVANCED_RESEARCH_BUILD_QUEUE.md", readme)
         self.assertIn("ADVANCED_RESEARCH_BUILD_QUEUE.md", packet)
 
+    def test_shared_market_packet_fixtures_is_promoted_as_flagship_infrastructure(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("shared-market-packet-fixtures", text)
+            self.assertIn("Shared Market Packet Fixtures", text)
+
 
 if __name__ == "__main__":
     unittest.main()

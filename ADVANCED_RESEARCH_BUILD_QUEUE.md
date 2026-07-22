@@ -16,7 +16,7 @@ The standard for a promoted project is:
 
 | Flagship system | Repository concept | Role signal | Paper anchor | Proof required before promotion |
 | --- | --- | --- | --- | --- |
-| Low-latency FPGA datapath | shared-market-packet-fixtures | Market infrastructure | High Frequency Trading Acceleration using FPGAs | Shared event schema, parser fixtures, tests across at least three repos |
+| Low-latency FPGA datapath | Shared Market Packet Fixtures (`shared-market-packet-fixtures`) | Market infrastructure | High Frequency Trading Acceleration using FPGAs | Shared event schema, parser fixtures, tests across at least three repos |
 | Low-latency FPGA datapath | fpga-orderflow-formal-properties | FPGA verification | High Frequency Trading Acceleration using FPGAs | Safety and liveness properties for sequence, halt, exposure, and backpressure |
 | LOB intelligence | lob-benchmark-report-generator | Quant developer | DeepLOB, LOBFrame | Reproducible report comparing baseline, queue, and deep-feature metrics |
 | LOB intelligence | market-sim-scenario-library | Quant research | ABIDES | Stress, halt, auction, latency, and liquidity-drought scenarios with deterministic seeds |
@@ -80,4 +80,3 @@ The standard for a promoted project is:
 ## Promotion Rules
 
 The queue is useful only if each project earns promotion. A project stays in backlog until it has tests, CI, clear docs, public-safe examples, and a measured or explicitly bounded claim. The best projects should then be reflected in `FLAGSHIP_SYSTEMS_MAP.md`, `ROLE_PACKETS.md`, `PORTFOLIO_EVIDENCE_LEDGER.md`, and the public site.
-

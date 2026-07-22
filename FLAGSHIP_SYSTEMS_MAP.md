@@ -19,6 +19,7 @@ Market data systems need deterministic parsing, sequencing, timestamping, buffer
 - `fpga-udp-market-data-feed-handler`
 - `fpga-latency-arbitration-crossbar`
 - `fpga-pcie-market-data-dma-engine`
+- `shared-market-packet-fixtures` (Shared Market Packet Fixtures)
 - `nasdaq-itch-parser-rtl-lab`
 - `multicast-feed-arbitration-fpga`
 - `ptp-nanosecond-timestamp-core`
@@ -61,6 +62,7 @@ Useful quant ML requires market microstructure realism: limit order book feature
 - `realistic-fill-backtester`
 - `market-impact-propagator-lab`
 - `backtest-result-warehouse`
+- `shared-market-packet-fixtures` (Shared Market Packet Fixtures)
 
 ### Paper-backed foundation
 
@@ -200,4 +202,3 @@ Trading infrastructure and cyber-physical systems share the same engineering con
 - Every research repo should distinguish implemented evidence from future roadmap.
 - Every finance-adjacent repo should avoid private credentials, account data, and live-trading promises.
 - Every recruiter path should reduce noise by pointing to the few best artifacts for that role.
-
