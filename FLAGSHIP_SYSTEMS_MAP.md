@@ -182,6 +182,7 @@ Trading infrastructure and cyber-physical systems share the same engineering con
 - `udp-telemetry-control-plane`
 - `time-sync-attack-simulator`
 - `operator-console-design-system`
+- `degraded-mode-operator-console` (Degraded Mode Operator Console: normal, degraded, fault, operator-acknowledged, and recovery states with Precision Time Protocol context, safe mode operator cards, operator acknowledgement gates, and recovery checks)
 
 ### Paper-backed foundation
 
@@ -199,7 +200,7 @@ Trading infrastructure and cyber-physical systems share the same engineering con
 
 - Add a simulated plant plus market-data control analogy showing sensor input, estimator, controller, actuator, and operator intervention.
 - Add timing-fault injection reports and recovery-path documentation.
-- Add a dashboard that shows degraded-mode behavior, not just normal operation.
+- Extend degraded-mode dashboards from operator cards into richer live timing and recovery-path views.
 
 ## Portfolio-Level Standards
 

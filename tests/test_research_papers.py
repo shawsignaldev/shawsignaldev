@@ -311,6 +311,22 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("watchlisted", text)
             self.assertIn("human approval", text)
 
+    def test_degraded_mode_operator_console_is_promoted_as_cpse_operator_system(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("degraded-mode-operator-console", text)
+            self.assertIn("Degraded Mode Operator Console", text)
+            self.assertIn("Precision Time Protocol", text)
+            self.assertIn("operator acknowledgement", text)
+            self.assertIn("recovery", text)
+            self.assertIn("safe mode", text)
+
 
 if __name__ == "__main__":
     unittest.main()

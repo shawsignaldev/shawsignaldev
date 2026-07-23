@@ -23,7 +23,7 @@ The standard for a promoted project is:
 | Options research | Synthetic Options Chain Generator (`synthetic-options-chain-generator`) | Options research | Strategy Robustness Whitepaper | Generated chain with IV skew, Greeks, bid/ask spread, volume, open interest, expiry checks, liquidity scores, and target-delta selection |
 | Options research | Option Replay Report Engine (`option-replay-report-engine`) | Quant developer | Strategy Robustness Whitepaper | Per-contract PnL attribution separating contract PnL, fees, liquidity cost, theta drag, volatility contribution, reward-to-risk, quality scoring, and Promote/Watchlist/Reject verdicts |
 | AI research factory | Research Queue State Machine (`research-queue-state-machine`) | AI/software engineering | Model-risk and evidence-gating notes | evidence-gated proposed, tested, challenged, promoted, watchlisted, and rejected state transitions with missing-evidence checks, audit trails, Markdown reports, and human approval gates |
-| CPSE systems | degraded-mode-operator-console | Cyber-physical systems | Precision Time Protocol references | Normal, degraded, fault, operator-acknowledged, and recovery states |
+| CPSE systems | Degraded Mode Operator Console (`degraded-mode-operator-console`) | Cyber-physical systems | Precision Time Protocol references | Normal, degraded, fault, operator-acknowledged, and recovery states with safe mode operator cards, operator acknowledgement gates, recovery checks, audit trails, and Markdown reports |
 
 ## Wave 2: Paper Reproduction and Benchmarking
 
