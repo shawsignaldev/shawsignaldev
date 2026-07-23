@@ -35,7 +35,7 @@ The standard for a promoted project is:
 | LOB intelligence | LOBench Representation Lab (`lobench-representation-lab`) | Quant ML | LOBench | representation family comparisons, public-safe symbol split transferability, leakage-aware downstream tasks, transfer matrix scoring, and Markdown reports |
 | LOB intelligence | LOB-Bench Generative Evaluator (`lob-bench-generative-evaluator`) | AI research | LOB-Bench | realism metrics for public-safe synthetic message-by-order data, event mix, interarrival, order lifetime, invariant checks, generator ranking, and Markdown reports |
 | Market simulation | ABIDES Agent Strategy Zoo (`abides-agent-strategy-zoo`) | Quant simulation | ABIDES | public-safe deterministic event simulation for market maker, momentum, noise, informed, and latency-arbitrage agents with agent PnL, inventory risk, fill counts, latency, and Markdown reports |
-| Market simulation | abides-latency-impact-study | Market infrastructure | ABIDES | Pairwise latency matrix and execution-quality report |
+| Market simulation | ABIDES Latency Impact Study (`abides-latency-impact-study`) | Market infrastructure | ABIDES | public-safe pairwise latency matrix, latency advantage, fill rate, opportunity loss, slippage, and execution-quality report |
 | Market simulation | market-impact-validation-suite | Quant developer | ABIDES, LOBFrame | Temporary and permanent impact estimates with limitations |
 
 ## Wave 3: Hardware Acceleration and Formal Verification

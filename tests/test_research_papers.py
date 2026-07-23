@@ -434,6 +434,25 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("inventory risk", text)
             self.assertIn("public-safe", text)
 
+    def test_abides_latency_impact_study_is_promoted_as_market_infrastructure_research(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("abides-latency-impact-study", text)
+            self.assertIn("ABIDES Latency Impact Study", text)
+            self.assertIn("pairwise latency matrix", text)
+            self.assertIn("execution-quality report", text)
+            self.assertIn("latency advantage", text)
+            self.assertIn("fill rate", text)
+            self.assertIn("opportunity loss", text)
+            self.assertIn("market infrastructure", text)
+            self.assertIn("public-safe", text)
+
 
 if __name__ == "__main__":
     unittest.main()
