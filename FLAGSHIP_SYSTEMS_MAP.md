@@ -26,6 +26,7 @@ Market data systems need deterministic parsing, sequencing, timestamping, buffer
 - `pcie-dma-descriptor-verification` (PCIe DMA Descriptor Verification: FPGA and DMA public-safe descriptor validity, wraparound, burst sizing, and completion accounting)
 - `nasdaq-itch-parser-rtl-lab`
 - `multicast-feed-arbitration-fpga`
+- `lobin-style-in-network-inference` (LOBIN-Style In-Network Inference: SmartNIC/P4-style public-safe fixed-point order-book feature scoring with latency/accuracy tradeoff reporting; not a production trading system)
 - `ptp-nanosecond-timestamp-core`
 - `axi-lite-register-map-generator`
 - `uvm-lite-verification-harness`

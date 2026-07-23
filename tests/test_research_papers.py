@@ -307,6 +307,23 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("cyber-physical", text)
             self.assertIn("public-safe", text)
 
+    def test_lobin_style_in_network_inference_is_promoted_as_hardware_ai_acceleration(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("lobin-style-in-network-inference", text)
+            self.assertIn("LOBIN-Style In-Network Inference", text)
+            self.assertIn("SmartNIC/P4-style", text)
+            self.assertIn("public-safe", text)
+            self.assertIn("fixed-point", text)
+            self.assertIn("latency/accuracy tradeoff", text)
+            self.assertIn("not a production trading system", text)
+
     def test_lob_benchmark_report_generator_is_promoted_as_quant_research_infrastructure(self) -> None:
         required_files = [
             ROOT / "README.md",
