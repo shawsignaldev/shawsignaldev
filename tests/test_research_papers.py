@@ -453,6 +453,25 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("market infrastructure", text)
             self.assertIn("public-safe", text)
 
+    def test_market_impact_validation_suite_is_promoted_as_execution_research(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("market-impact-validation-suite", text)
+            self.assertIn("Market Impact Validation Suite", text)
+            self.assertIn("temporary impact", text)
+            self.assertIn("permanent impact", text)
+            self.assertIn("implementation shortfall", text)
+            self.assertIn("decay half-life", text)
+            self.assertIn("ABIDES", text)
+            self.assertIn("LOBFrame", text)
+            self.assertIn("public-safe", text)
+
 
 if __name__ == "__main__":
     unittest.main()
