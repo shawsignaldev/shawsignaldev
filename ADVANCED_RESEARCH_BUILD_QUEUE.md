@@ -42,7 +42,7 @@ The standard for a promoted project is:
 
 | Flagship system | Repository concept | Role signal | Paper anchor | Proof required before promotion |
 | --- | --- | --- | --- | --- |
-| Low-latency FPGA datapath | itch-to-risk-full-pipeline | FPGA systems | High Frequency Trading Acceleration using FPGAs | End-to-end parse, book update, risk approval, and replay trace |
+| Low-latency FPGA datapath | ITCH To Risk Full Pipeline (`itch-to-risk-full-pipeline`) | FPGA systems | High Frequency Trading Acceleration using FPGAs | FPGA-oriented public-safe end-to-end parse, book update, risk approval, and replay trace |
 | Low-latency FPGA datapath | PCIe DMA Descriptor Verification (`pcie-dma-descriptor-verification`) | Hardware engineering | High Frequency Trading Acceleration using FPGAs | FPGA and DMA public-safe descriptor validity, wraparound, burst sizing, completion accounting, and Markdown report evidence |
 | Low-latency FPGA datapath | AXI Stream Backpressure Lab (`axi-stream-backpressure-lab`) | FPGA verification | High Frequency Trading Acceleration using FPGAs | FPGA public-safe ready/valid stall coverage, skid buffer stress, packet-boundary recovery, and no-loss packet tests |
 | Low-latency FPGA datapath | ptp-fault-injection-core | Timing systems | Precision Time Protocol references | Offset attack, drift, recovery, and operator alert scenarios |

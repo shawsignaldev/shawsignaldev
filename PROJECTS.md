@@ -14,6 +14,7 @@ This file tracks the projects represented in the public GitHub portfolio plan.
 | Aurora Market Network Explorer | Streamlit correlation-network dashboard |
 | Market Data Ingestion Lab | OHLCV ingestion, validation, cleaning, and data-quality reporting |
 | Shared Market Packet Fixtures | Canonical sanitized market packet fixtures for FPGA, replay, tickerplant, and simulation tests; repository `shared-market-packet-fixtures` |
+| ITCH To Risk Full Pipeline | FPGA-oriented public-safe end-to-end parse, book update, risk approval, and replay trace flow from ITCH-like events to order-book state and risk-gate decisions; repository `itch-to-risk-full-pipeline` |
 | FPGA Orderflow Formal Properties | SVA-style order-flow property pack for sequence, replay, exposure cap, halt latch, valid side, bounded acknowledgement latency, and coverage matrix review; repository `fpga-orderflow-formal-properties` |
 | PCIe DMA Descriptor Verification | FPGA and DMA public-safe descriptor validity, wraparound, burst sizing, completion accounting, and Markdown report evidence for PCIe-style descriptor rings; repository `pcie-dma-descriptor-verification` |
 | AXI Stream Backpressure Lab | FPGA public-safe ready/valid stall coverage, skid buffer stress, packet-boundary recovery, and no-loss packet tests; repository `axi-stream-backpressure-lab` |

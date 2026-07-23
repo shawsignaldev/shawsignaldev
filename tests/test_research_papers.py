@@ -270,6 +270,24 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("FPGA", text)
             self.assertIn("public-safe", text)
 
+    def test_itch_to_risk_full_pipeline_is_promoted_as_end_to_end_fpga_pipeline(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("itch-to-risk-full-pipeline", text)
+            self.assertIn("ITCH To Risk Full Pipeline", text)
+            self.assertIn("end-to-end parse", text)
+            self.assertIn("book update", text)
+            self.assertIn("risk approval", text)
+            self.assertIn("replay trace", text)
+            self.assertIn("FPGA", text)
+            self.assertIn("public-safe", text)
+
     def test_lob_benchmark_report_generator_is_promoted_as_quant_research_infrastructure(self) -> None:
         required_files = [
             ROOT / "README.md",
