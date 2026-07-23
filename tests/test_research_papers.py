@@ -343,6 +343,23 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("lookahead leakage", text)
             self.assertIn("baseline metrics", text)
 
+    def test_lobframe_metric_dashboard_is_promoted_as_operational_forecast_dashboard(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("lobframe-metric-dashboard", text)
+            self.assertIn("LOBFrame Metric Dashboard", text)
+            self.assertIn("macro F1", text)
+            self.assertIn("calibration", text)
+            self.assertIn("turnover", text)
+            self.assertIn("cost-adjusted PnL", text)
+            self.assertIn("latency pass rate", text)
+
 
 if __name__ == "__main__":
     unittest.main()

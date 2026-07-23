@@ -58,6 +58,7 @@ Useful quant ML requires market microstructure realism: limit order book feature
 - `deeplob-leakage-test-harness` (DeepLOB Leakage Test Harness: benchmark hygiene with chronological split, label horizon audit, lookahead leakage detection, tensor shape checks, and baseline metrics)
 - `hlob-feature-research`
 - `lobframe-benchmark-suite`
+- `lobframe-metric-dashboard` (LOBFrame Metric Dashboard: operational forecast dashboard with macro F1, calibration, turnover, cost-adjusted PnL, latency pass rate, and promotion gates)
 - `lob-benchmark-report-generator` (LOB Benchmark Report Generator: cost-adjusted, Brier, latency pass, and Markdown reports)
 - `abides-market-sim-lab`
 - `market-sim-scenario-library` (Market Sim Scenario Library: ABIDES-style stress, halt, auction, latency, and liquidity-drought fixtures with deterministic seeds)
