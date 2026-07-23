@@ -394,6 +394,25 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("symbol split", text)
             self.assertIn("leakage-aware", text)
 
+    def test_lob_bench_generative_evaluator_is_promoted_as_synthetic_lob_realism_research(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("lob-bench-generative-evaluator", text)
+            self.assertIn("LOB-Bench Generative Evaluator", text)
+            self.assertIn("realism metrics", text)
+            self.assertIn("synthetic message-by-order data", text)
+            self.assertIn("event mix", text)
+            self.assertIn("interarrival", text)
+            self.assertIn("order lifetime", text)
+            self.assertIn("invariant checks", text)
+            self.assertIn("public-safe", text)
+
 
 if __name__ == "__main__":
     unittest.main()

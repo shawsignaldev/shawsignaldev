@@ -33,7 +33,7 @@ The standard for a promoted project is:
 | LOB intelligence | LOBFrame Metric Dashboard (`lobframe-metric-dashboard`) | Quant developer | LOBFrame | Accuracy, macro F1, Brier score, calibration, turnover, cost-adjusted PnL, latency pass rate, explicit promotion gates, and Markdown reports |
 | LOB intelligence | HLOB Depth Persistence Study (`hlob-depth-persistence-study`) | Quant research | HLOB | deep-level persistence features, public-safe depth fixtures, shallow-versus-deep ablation report, horizon persistence scores, and explicit limitations |
 | LOB intelligence | LOBench Representation Lab (`lobench-representation-lab`) | Quant ML | LOBench | representation family comparisons, public-safe symbol split transferability, leakage-aware downstream tasks, transfer matrix scoring, and Markdown reports |
-| LOB intelligence | lob-bench-generative-evaluator | AI research | LOB-Bench | Realism metrics for synthetic message-by-order data |
+| LOB intelligence | LOB-Bench Generative Evaluator (`lob-bench-generative-evaluator`) | AI research | LOB-Bench | realism metrics for public-safe synthetic message-by-order data, event mix, interarrival, order lifetime, invariant checks, generator ranking, and Markdown reports |
 | Market simulation | abides-agent-strategy-zoo | Quant simulation | ABIDES | Market maker, momentum, noise, informed, and latency-arbitrage agents |
 | Market simulation | abides-latency-impact-study | Market infrastructure | ABIDES | Pairwise latency matrix and execution-quality report |
 | Market simulation | market-impact-validation-suite | Quant developer | ABIDES, LOBFrame | Temporary and permanent impact estimates with limitations |
