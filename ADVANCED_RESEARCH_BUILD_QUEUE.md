@@ -22,7 +22,7 @@ The standard for a promoted project is:
 | LOB intelligence | Market Sim Scenario Library (`market-sim-scenario-library`) | Quant research | ABIDES | Stress, halt, auction, latency, and liquidity-drought scenarios with deterministic seeds, event traces, latency matrices, CSV export, and Markdown reports |
 | Options research | Synthetic Options Chain Generator (`synthetic-options-chain-generator`) | Options research | Strategy Robustness Whitepaper | Generated chain with IV skew, Greeks, bid/ask spread, volume, open interest, expiry checks, liquidity scores, and target-delta selection |
 | Options research | Option Replay Report Engine (`option-replay-report-engine`) | Quant developer | Strategy Robustness Whitepaper | Per-contract PnL attribution separating contract PnL, fees, liquidity cost, theta drag, volatility contribution, reward-to-risk, quality scoring, and Promote/Watchlist/Reject verdicts |
-| AI research factory | research-queue-state-machine | AI/software engineering | Model-risk and evidence-gating notes | Proposed, tested, challenged, promoted, watchlisted, rejected state transitions |
+| AI research factory | Research Queue State Machine (`research-queue-state-machine`) | AI/software engineering | Model-risk and evidence-gating notes | evidence-gated proposed, tested, challenged, promoted, watchlisted, and rejected state transitions with missing-evidence checks, audit trails, Markdown reports, and human approval gates |
 | CPSE systems | degraded-mode-operator-console | Cyber-physical systems | Precision Time Protocol references | Normal, degraded, fault, operator-acknowledged, and recovery states |
 
 ## Wave 2: Paper Reproduction and Benchmarking

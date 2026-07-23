@@ -295,6 +295,22 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("volatility contribution", text)
             self.assertIn("verdict", text)
 
+    def test_research_queue_state_machine_is_promoted_as_ai_research_governance(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("research-queue-state-machine", text)
+            self.assertIn("Research Queue State Machine", text)
+            self.assertIn("evidence-gated", text)
+            self.assertIn("promoted", text)
+            self.assertIn("watchlisted", text)
+            self.assertIn("human approval", text)
+
 
 if __name__ == "__main__":
     unittest.main()

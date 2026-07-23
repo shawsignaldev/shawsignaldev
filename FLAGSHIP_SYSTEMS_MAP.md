@@ -135,6 +135,7 @@ AI should accelerate hypothesis generation, literature review, experiment planni
 ### Core repositories
 
 - `agentic-strategy-search-lab`
+- `research-queue-state-machine` (Research Queue State Machine: evidence-gated proposed, tested, challenged, promoted, watchlisted, and rejected research workflow with human approval gates)
 - `ai-quant-research-os`
 - `agentic-quant-researcher`
 - `paper-to-alpha-reproduction-suite`

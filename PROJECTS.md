@@ -19,6 +19,7 @@ This file tracks the projects represented in the public GitHub portfolio plan.
 | LOB Benchmark Report Generator | DeepLOB/LOBFrame-style benchmark reporting with cost-adjusted PnL, Brier calibration, expected value, latency pass rates, drawdown, and Markdown reports; repository `lob-benchmark-report-generator` |
 | Synthetic Options Chain Generator | Synthetic options-chain fixtures with IV skew, Greeks, bid/ask spread, volume, open interest, liquidity scoring, and target-delta selection; repository `synthetic-options-chain-generator` |
 | Option Replay Report Engine | Per-contract option replay reports with contract PnL, fees, liquidity cost, theta drag, volatility contribution, reward-to-risk, quality scoring, and Promote/Watchlist/Reject verdicts; repository `option-replay-report-engine` |
+| Research Queue State Machine | evidence-gated AI research workflow with proposed, tested, challenged, promoted, watchlisted, rejected states, missing-evidence checks, audit trails, and human approval gates; repository `research-queue-state-machine` |
 | CPSE Engineering Labs | Sanitized embedded systems, networking, and sensors portfolio |
 | Eidenhall | Sanitized dashboard orchestration and daily memo automation |
 | M2M Learning Systems | Sanitized homework, mock-exam, and concept-graph workflows |
