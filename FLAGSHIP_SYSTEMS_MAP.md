@@ -194,6 +194,7 @@ Trading infrastructure and cyber-physical systems share the same engineering con
 - `time-sync-attack-simulator`
 - `operator-console-design-system`
 - `degraded-mode-operator-console` (Degraded Mode Operator Console: normal, degraded, fault, operator-acknowledged, and recovery states with Precision Time Protocol context, safe mode operator cards, operator acknowledgement gates, and recovery checks)
+- `ptp-fault-injection-core` (PTP Fault Injection Core: Precision Time Protocol public-safe Offset attack, Drift injection, Recovery, and Operator alert scenarios for cyber-physical timing resilience)
 
 ### Paper-backed foundation
 
@@ -210,7 +211,7 @@ Trading infrastructure and cyber-physical systems share the same engineering con
 ### Next research upgrades
 
 - Add a simulated plant plus market-data control analogy showing sensor input, estimator, controller, actuator, and operator intervention.
-- Add timing-fault injection reports and recovery-path documentation.
+- Promote timing-fault injection reports and recovery-path documentation across `ptp-fault-injection-core` and related operator dashboards.
 - Extend degraded-mode dashboards from operator cards into richer live timing and recovery-path views.
 
 ## Portfolio-Level Standards

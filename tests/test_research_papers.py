@@ -288,6 +288,25 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("FPGA", text)
             self.assertIn("public-safe", text)
 
+    def test_ptp_fault_injection_core_is_promoted_as_cpse_timing_resilience(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("ptp-fault-injection-core", text)
+            self.assertIn("PTP Fault Injection Core", text)
+            self.assertIn("Offset attack", text)
+            self.assertIn("Drift injection", text)
+            self.assertIn("Recovery", text)
+            self.assertIn("Operator alert", text)
+            self.assertIn("Precision Time Protocol", text)
+            self.assertIn("cyber-physical", text)
+            self.assertIn("public-safe", text)
+
     def test_lob_benchmark_report_generator_is_promoted_as_quant_research_infrastructure(self) -> None:
         required_files = [
             ROOT / "README.md",
