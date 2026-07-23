@@ -64,6 +64,7 @@ Useful quant ML requires market microstructure realism: limit order book feature
 - `lobframe-metric-dashboard` (LOBFrame Metric Dashboard: operational forecast dashboard with macro F1, calibration, turnover, cost-adjusted PnL, latency pass rate, and promotion gates)
 - `lob-benchmark-report-generator` (LOB Benchmark Report Generator: cost-adjusted, Brier, latency pass, and Markdown reports)
 - `abides-market-sim-lab`
+- `abides-agent-strategy-zoo` (ABIDES Agent Strategy Zoo: public-safe deterministic event simulation for market maker, momentum, noise, informed, and latency-arbitrage agents with agent PnL and inventory risk)
 - `market-sim-scenario-library` (Market Sim Scenario Library: ABIDES-style stress, halt, auction, latency, and liquidity-drought fixtures with deterministic seeds)
 - `queue-reactive-orderbook-model`
 - `lob-transformer-reproduction`

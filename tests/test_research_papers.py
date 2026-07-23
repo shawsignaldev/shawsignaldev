@@ -413,6 +413,27 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("invariant checks", text)
             self.assertIn("public-safe", text)
 
+    def test_abides_agent_strategy_zoo_is_promoted_as_market_simulation_research(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("abides-agent-strategy-zoo", text)
+            self.assertIn("ABIDES Agent Strategy Zoo", text)
+            self.assertIn("market maker", text)
+            self.assertIn("momentum", text)
+            self.assertIn("noise", text)
+            self.assertIn("informed", text)
+            self.assertIn("latency-arbitrage", text)
+            self.assertIn("deterministic event simulation", text)
+            self.assertIn("agent PnL", text)
+            self.assertIn("inventory risk", text)
+            self.assertIn("public-safe", text)
+
 
 if __name__ == "__main__":
     unittest.main()
