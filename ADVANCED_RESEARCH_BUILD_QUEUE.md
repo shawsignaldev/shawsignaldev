@@ -29,7 +29,7 @@ The standard for a promoted project is:
 
 | Flagship system | Repository concept | Role signal | Paper anchor | Proof required before promotion |
 | --- | --- | --- | --- | --- |
-| LOB intelligence | deeplob-leakage-test-harness | Quant ML | DeepLOB | Time-split checks, label-horizon audit, tensor shape tests, baseline metrics |
+| LOB intelligence | DeepLOB Leakage Test Harness (`deeplob-leakage-test-harness`) | Quant ML | DeepLOB | Public-safe synthetic LOB fixtures, tensor shape checks, chronological split, label horizon audit, lookahead leakage detection, baseline metrics, and Markdown reports |
 | LOB intelligence | lobframe-metric-dashboard | Quant developer | LOBFrame | Accuracy, F1, calibration, turnover, cost-adjusted PnL, and latency metrics |
 | LOB intelligence | hlob-depth-persistence-study | Quant research | HLOB | Deep-level persistence features and ablation report |
 | LOB intelligence | lobench-representation-lab | Quant ML | LOBench | Transferability checks across symbols and downstream tasks |

@@ -55,6 +55,7 @@ Useful quant ML requires market microstructure realism: limit order book feature
 
 - `market-microstructure-research-platform`
 - `deeplob-reproduction-lab`
+- `deeplob-leakage-test-harness` (DeepLOB Leakage Test Harness: benchmark hygiene with chronological split, label horizon audit, lookahead leakage detection, tensor shape checks, and baseline metrics)
 - `hlob-feature-research`
 - `lobframe-benchmark-suite`
 - `lob-benchmark-report-generator` (LOB Benchmark Report Generator: cost-adjusted, Brier, latency pass, and Markdown reports)

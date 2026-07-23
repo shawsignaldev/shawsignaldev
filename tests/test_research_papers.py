@@ -327,6 +327,22 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("recovery", text)
             self.assertIn("safe mode", text)
 
+    def test_deeplob_leakage_test_harness_is_promoted_as_quant_ml_hygiene(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("deeplob-leakage-test-harness", text)
+            self.assertIn("DeepLOB Leakage Test Harness", text)
+            self.assertIn("chronological split", text)
+            self.assertIn("label horizon", text)
+            self.assertIn("lookahead leakage", text)
+            self.assertIn("baseline metrics", text)
+
 
 if __name__ == "__main__":
     unittest.main()
