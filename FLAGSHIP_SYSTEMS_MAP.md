@@ -59,6 +59,7 @@ Useful quant ML requires market microstructure realism: limit order book feature
 - `lobframe-benchmark-suite`
 - `lob-benchmark-report-generator` (LOB Benchmark Report Generator: cost-adjusted, Brier, latency pass, and Markdown reports)
 - `abides-market-sim-lab`
+- `market-sim-scenario-library` (Market Sim Scenario Library: ABIDES-style stress, halt, auction, latency, and liquidity-drought fixtures with deterministic seeds)
 - `queue-reactive-orderbook-model`
 - `lob-transformer-reproduction`
 - `realistic-fill-backtester`

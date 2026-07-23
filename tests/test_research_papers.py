@@ -248,6 +248,22 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("Brier", text)
             self.assertIn("latency pass", text)
 
+    def test_market_sim_scenario_library_is_promoted_as_abides_style_fixtures(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("market-sim-scenario-library", text)
+            self.assertIn("Market Sim Scenario Library", text)
+            self.assertIn("ABIDES", text)
+            self.assertIn("deterministic seeds", text)
+            self.assertIn("latency", text)
+            self.assertIn("liquidity", text)
+
     def test_synthetic_options_chain_generator_is_promoted_as_options_research_infrastructure(self) -> None:
         required_files = [
             ROOT / "README.md",
