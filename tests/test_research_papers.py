@@ -377,6 +377,23 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("deep", text)
             self.assertIn("persistence features", text)
 
+    def test_lobench_representation_lab_is_promoted_as_transferability_research(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("lobench-representation-lab", text)
+            self.assertIn("LOBench Representation Lab", text)
+            self.assertIn("transferability", text)
+            self.assertIn("downstream tasks", text)
+            self.assertIn("representation family", text)
+            self.assertIn("symbol split", text)
+            self.assertIn("leakage-aware", text)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -57,6 +57,7 @@ Useful quant ML requires market microstructure realism: limit order book feature
 - `deeplob-reproduction-lab`
 - `deeplob-leakage-test-harness` (DeepLOB Leakage Test Harness: benchmark hygiene with chronological split, label horizon audit, lookahead leakage detection, tensor shape checks, and baseline metrics)
 - `hlob-depth-persistence-study` (HLOB Depth Persistence Study: deep-level persistence features, shallow-versus-deep ablation report, and horizon persistence scores)
+- `lobench-representation-lab` (LOBench Representation Lab: representation family comparisons, symbol split transferability, downstream tasks, leakage-aware reporting, and transfer matrix scoring)
 - `hlob-feature-research`
 - `lobframe-benchmark-suite`
 - `lobframe-metric-dashboard` (LOBFrame Metric Dashboard: operational forecast dashboard with macro F1, calibration, turnover, cost-adjusted PnL, latency pass rate, and promotion gates)
