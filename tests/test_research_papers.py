@@ -252,6 +252,24 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("DMA", text)
             self.assertIn("public-safe", text)
 
+    def test_axi_stream_backpressure_lab_is_promoted_as_fpga_verification(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("axi-stream-backpressure-lab", text)
+            self.assertIn("AXI Stream Backpressure Lab", text)
+            self.assertIn("ready/valid", text)
+            self.assertIn("stall coverage", text)
+            self.assertIn("no-loss packet tests", text)
+            self.assertIn("skid buffer", text)
+            self.assertIn("FPGA", text)
+            self.assertIn("public-safe", text)
+
     def test_lob_benchmark_report_generator_is_promoted_as_quant_research_infrastructure(self) -> None:
         required_files = [
             ROOT / "README.md",

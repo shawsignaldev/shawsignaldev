@@ -18,6 +18,7 @@ Market data systems need deterministic parsing, sequencing, timestamping, buffer
 - `fpga-nanosecond-orderbook-risk-gate`
 - `fpga-udp-market-data-feed-handler`
 - `fpga-latency-arbitration-crossbar`
+- `axi-stream-backpressure-lab` (AXI Stream Backpressure Lab: FPGA public-safe ready/valid stall coverage, skid buffer stress, packet-boundary recovery, and no-loss packet tests)
 - `fpga-pcie-market-data-dma-engine`
 - `shared-market-packet-fixtures` (Shared Market Packet Fixtures)
 - `fpga-orderflow-formal-properties` (FPGA Orderflow Formal Properties: halt latch and bounded acknowledgement latency property pack)
