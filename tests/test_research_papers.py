@@ -324,6 +324,25 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("latency/accuracy tradeoff", text)
             self.assertIn("not a production trading system", text)
 
+    def test_quantized_lob_inference_fpga_is_promoted_as_fpga_ml_inference(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("quantized-lob-inference-fpga", text)
+            self.assertIn("Quantized LOB Inference FPGA", text)
+            self.assertIn("DeepLOB", text)
+            self.assertIn("LOBIN", text)
+            self.assertIn("public-safe", text)
+            self.assertIn("fixed-point", text)
+            self.assertIn("error bounds", text)
+            self.assertIn("throughput estimate", text)
+            self.assertIn("not a production trading system", text)
+
     def test_lob_benchmark_report_generator_is_promoted_as_quant_research_infrastructure(self) -> None:
         required_files = [
             ROOT / "README.md",

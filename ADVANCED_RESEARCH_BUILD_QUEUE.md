@@ -47,7 +47,7 @@ The standard for a promoted project is:
 | Low-latency FPGA datapath | AXI Stream Backpressure Lab (`axi-stream-backpressure-lab`) | FPGA verification | High Frequency Trading Acceleration using FPGAs | FPGA public-safe ready/valid stall coverage, skid buffer stress, packet-boundary recovery, and no-loss packet tests |
 | Low-latency FPGA datapath | PTP Fault Injection Core (`ptp-fault-injection-core`) | Timing systems | Precision Time Protocol references | public-safe Offset attack, Drift injection, Recovery, and Operator alert scenarios for cyber-physical timing resilience |
 | Hardware AI acceleration | LOBIN-Style In-Network Inference (`lobin-style-in-network-inference`) | SmartNIC/P4 | LOBIN | SmartNIC/P4-style public-safe fixed-point order-book feature scoring with latency/accuracy tradeoff reporting; not a production trading system |
-| Hardware AI acceleration | quantized-lob-inference-fpga | FPGA ML | DeepLOB, LOBIN | Fixed-point feature pipeline with error bounds and throughput estimate |
+| Hardware AI acceleration | Quantized LOB Inference FPGA (`quantized-lob-inference-fpga`) | FPGA ML | DeepLOB, LOBIN | public-safe fixed-point LOB inference with error bounds and throughput estimate; not a production trading system |
 | Hardware AI acceleration | hbm-lob-layout-benchmark | Memory systems | LOBFrame | Bank conflict, row locality, throughput, and storage-layout report |
 | Hardware AI acceleration | systolic-lob-feature-engine | Hardware acceleration | DeepLOB | Matrix/vector feature projection and cycle estimate with limitations |
 
