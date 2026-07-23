@@ -21,6 +21,7 @@ Market data systems need deterministic parsing, sequencing, timestamping, buffer
 - `fpga-pcie-market-data-dma-engine`
 - `shared-market-packet-fixtures` (Shared Market Packet Fixtures)
 - `fpga-orderflow-formal-properties` (FPGA Orderflow Formal Properties: halt latch and bounded acknowledgement latency property pack)
+- `pcie-dma-descriptor-verification` (PCIe DMA Descriptor Verification: FPGA and DMA public-safe descriptor validity, wraparound, burst sizing, and completion accounting)
 - `nasdaq-itch-parser-rtl-lab`
 - `multicast-feed-arbitration-fpga`
 - `ptp-nanosecond-timestamp-core`

@@ -233,6 +233,25 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("halt latch", text)
             self.assertIn("bounded acknowledgement latency", text)
 
+    def test_pcie_dma_descriptor_verification_is_promoted_as_hardware_data_movement(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("pcie-dma-descriptor-verification", text)
+            self.assertIn("PCIe DMA Descriptor Verification", text)
+            self.assertIn("descriptor validity", text)
+            self.assertIn("wraparound", text)
+            self.assertIn("burst sizing", text)
+            self.assertIn("completion accounting", text)
+            self.assertIn("FPGA", text)
+            self.assertIn("DMA", text)
+            self.assertIn("public-safe", text)
+
     def test_lob_benchmark_report_generator_is_promoted_as_quant_research_infrastructure(self) -> None:
         required_files = [
             ROOT / "README.md",
