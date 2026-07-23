@@ -23,6 +23,7 @@ This file tracks the projects represented in the public GitHub portfolio plan.
 | Research Queue State Machine | evidence-gated AI research workflow with proposed, tested, challenged, promoted, watchlisted, rejected states, missing-evidence checks, audit trails, and human approval gates; repository `research-queue-state-machine` |
 | Degraded Mode Operator Console | CPSE degraded-mode workflow with normal, degraded, fault, operator-acknowledged, and recovery states, Precision Time Protocol context, safe mode operator cards, operator acknowledgement gates, recovery checks, audit trails, and Markdown reports; repository `degraded-mode-operator-console` |
 | DeepLOB Leakage Test Harness | DeepLOB-style benchmark-hygiene harness with public-safe synthetic LOB fixtures, tensor shape checks, chronological split, label horizon audit, lookahead leakage detection, baseline metrics, and Markdown reports; repository `deeplob-leakage-test-harness` |
+| HLOB Depth Persistence Study | HLOB-style deep-level persistence study with public-safe synthetic depth fixtures, persistence features, shallow-versus-deep ablation report, horizon scores, and explicit limitations; repository `hlob-depth-persistence-study` |
 | CPSE Engineering Labs | Sanitized embedded systems, networking, and sensors portfolio |
 | Eidenhall | Sanitized dashboard orchestration and daily memo automation |
 | M2M Learning Systems | Sanitized homework, mock-exam, and concept-graph workflows |

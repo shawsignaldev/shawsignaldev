@@ -360,6 +360,23 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("cost-adjusted PnL", text)
             self.assertIn("latency pass rate", text)
 
+    def test_hlob_depth_persistence_study_is_promoted_as_depth_ablation_research(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("hlob-depth-persistence-study", text)
+            self.assertIn("HLOB Depth Persistence Study", text)
+            self.assertIn("deep-level persistence", text)
+            self.assertIn("ablation report", text)
+            self.assertIn("shallow", text)
+            self.assertIn("deep", text)
+            self.assertIn("persistence features", text)
+
 
 if __name__ == "__main__":
     unittest.main()
