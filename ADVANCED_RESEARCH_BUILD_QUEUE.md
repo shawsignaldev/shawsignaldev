@@ -49,7 +49,7 @@ The standard for a promoted project is:
 | Hardware AI acceleration | LOBIN-Style In-Network Inference (`lobin-style-in-network-inference`) | SmartNIC/P4 | LOBIN | SmartNIC/P4-style public-safe fixed-point order-book feature scoring with latency/accuracy tradeoff reporting; not a production trading system |
 | Hardware AI acceleration | Quantized LOB Inference FPGA (`quantized-lob-inference-fpga`) | FPGA ML | DeepLOB, LOBIN | public-safe fixed-point LOB inference with error bounds and throughput estimate; not a production trading system |
 | Hardware AI acceleration | HBM LOB Layout Benchmark (`hbm-lob-layout-benchmark`) | Memory systems | LOBFrame | public-safe HBM storage-layout report with bank conflict, row locality, and throughput evidence; not a production trading system |
-| Hardware AI acceleration | systolic-lob-feature-engine | Hardware acceleration | DeepLOB | Matrix/vector feature projection and cycle estimate with limitations |
+| Hardware AI acceleration | Systolic LOB Feature Engine (`systolic-lob-feature-engine`) | Hardware acceleration | DeepLOB | public-safe matrix/vector feature projection with cycle estimate and limitations; not a production trading system |
 
 ## Wave 4: Options and Intraday Trading Research
 

@@ -362,6 +362,24 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("storage-layout report", text)
             self.assertIn("not a production trading system", text)
 
+    def test_systolic_lob_feature_engine_is_promoted_as_hardware_acceleration_evidence(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("systolic-lob-feature-engine", text)
+            self.assertIn("Systolic LOB Feature Engine", text)
+            self.assertIn("DeepLOB", text)
+            self.assertIn("public-safe", text)
+            self.assertIn("matrix/vector feature projection", text)
+            self.assertIn("cycle estimate", text)
+            self.assertIn("limitations", text)
+            self.assertIn("not a production trading system", text)
+
     def test_lob_benchmark_report_generator_is_promoted_as_quant_research_infrastructure(self) -> None:
         required_files = [
             ROOT / "README.md",
