@@ -399,6 +399,26 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("walk-forward report", text)
             self.assertIn("not financial advice", text)
 
+    def test_gamma_vwap_confluence_lab_is_promoted_as_options_microstructure_evidence(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("gamma-vwap-confluence-lab", text)
+            self.assertIn("Gamma/VWAP Confluence Lab", text)
+            self.assertIn("Strategy Robustness Whitepaper", text)
+            self.assertIn("public-safe", text)
+            self.assertIn("gamma level", text)
+            self.assertIn("VWAP", text)
+            self.assertIn("volume pressure", text)
+            self.assertIn("failed-breakout classification", text)
+            self.assertIn("not financial advice", text)
+            self.assertIn("not a production trading system", text)
+
     def test_lob_benchmark_report_generator_is_promoted_as_quant_research_infrastructure(self) -> None:
         required_files = [
             ROOT / "README.md",

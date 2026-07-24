@@ -112,6 +112,7 @@ Short-dated options research needs contract selection, liquidity checks, gamma a
 
 - `zero-dte-options-backtester`
 - `zero-dte-opening-drive-study` (Zero-DTE Opening Drive Study: public-safe First 5/15/45 minute windows, risk sizing, slippage, and walk-forward report evidence; not financial advice)
+- `gamma-vwap-confluence-lab` (Gamma/VWAP Confluence Lab: public-safe gamma level, VWAP, volume pressure, and failed-breakout classification evidence; not financial advice and not a production trading system)
 - `options-ev-estimator`
 - `synthetic-options-chain-generator` (Synthetic Options Chain Generator: IV skew, Greeks, open interest, and target-delta fixtures)
 - `option-replay-report-engine` (Option Replay Report Engine: per-contract PnL attribution across fees, liquidity cost, theta drag, volatility contribution, reward-to-risk, and promotion verdicts)
