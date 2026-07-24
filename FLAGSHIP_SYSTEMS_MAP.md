@@ -116,6 +116,7 @@ Short-dated options research needs contract selection, liquidity checks, gamma a
 - `weekly-contract-selector-benchmark` (Weekly Contract Selector Benchmark: public-safe Same-day versus nearest-weekly comparison, liquidity filters, target-delta selection, and spread control; not financial advice and not a production trading system)
 - `intraday-iv-expansion-monitor` (Intraday IV Expansion Monitor: Rough volatility and IV surface notes anchored public-safe IV expansion/compression labels, volatility regime, spread control, and signal-quality report evidence; not financial advice and not a production trading system)
 - `open-interest-liquidity-regime-lab` (Open Interest Liquidity Regime Lab: public-safe OI, spread, volume, and contract survivability scoring with open interest growth and liquidity regime evidence; not financial advice and not a production trading system)
+- `first-hour-momentum-regime-lab` (First-Hour Momentum Regime Lab: LOBFrame anchored public-safe Open, midday, and close regime splits with expectancy, drawdown, and volume confirmation evidence; not financial advice and not a production trading system)
 - `options-ev-estimator`
 - `synthetic-options-chain-generator` (Synthetic Options Chain Generator: IV skew, Greeks, open interest, and target-delta fixtures)
 - `option-replay-report-engine` (Option Replay Report Engine: per-contract PnL attribution across fees, liquidity cost, theta drag, volatility contribution, reward-to-risk, and promotion verdicts)

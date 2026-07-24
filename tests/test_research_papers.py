@@ -479,6 +479,26 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("not financial advice", text)
             self.assertIn("not a production trading system", text)
 
+    def test_first_hour_momentum_regime_lab_is_promoted_as_quant_developer_evidence(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("first-hour-momentum-regime-lab", text)
+            self.assertIn("First-Hour Momentum Regime Lab", text)
+            self.assertIn("LOBFrame", text)
+            self.assertIn("public-safe", text)
+            self.assertIn("Open, midday, and close regime splits", text)
+            self.assertIn("expectancy", text)
+            self.assertIn("drawdown", text)
+            self.assertIn("volume confirmation", text)
+            self.assertIn("not financial advice", text)
+            self.assertIn("not a production trading system", text)
+
     def test_lob_benchmark_report_generator_is_promoted_as_quant_research_infrastructure(self) -> None:
         required_files = [
             ROOT / "README.md",
