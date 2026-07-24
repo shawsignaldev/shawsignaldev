@@ -537,6 +537,26 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("position debit", text)
             self.assertIn("dollars at risk", text)
 
+    def test_plant_market_control_analogy_lab_is_promoted_as_cpse_control_evidence(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("plant-market-control-analogy-lab", text)
+            self.assertIn("Plant Market Control Analogy Lab", text)
+            self.assertIn("Precision Time Protocol references", text)
+            self.assertIn("public-safe", text)
+            self.assertIn("Sensor, estimator, controller, actuator, and operator intervention model", text)
+            self.assertIn("sensor health", text)
+            self.assertIn("control error", text)
+            self.assertIn("operator intervention", text)
+            self.assertIn("not financial advice", text)
+            self.assertIn("not a production trading system", text)
+
     def test_lob_benchmark_report_generator_is_promoted_as_quant_research_infrastructure(self) -> None:
         required_files = [
             ROOT / "README.md",

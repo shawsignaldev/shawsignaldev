@@ -68,7 +68,7 @@ The standard for a promoted project is:
 
 | Flagship system | Repository concept | Role signal | Paper anchor | Proof required before promotion |
 | --- | --- | --- | --- | --- |
-| CPSE systems | plant-market-control-analogy-lab | Cyber-physical systems | Precision Time Protocol references | Sensor, estimator, controller, actuator, and operator intervention model |
+| CPSE systems | Plant Market Control Analogy Lab (`plant-market-control-analogy-lab`) | Cyber-physical systems | Precision Time Protocol references | public-safe Sensor, estimator, controller, actuator, and operator intervention model with sensor health, control error, and operator intervention evidence; not financial advice and not a production trading system |
 | CPSE systems | distributed-clock-health-dashboard | Timing systems | Precision Time Protocol references | Clock offset, drift, jitter, and degraded-state visualization |
 | CPSE systems | real-time-alert-scheduler | Embedded/software systems | Real-time scheduling references | Deadline, priority inversion, dropped alert, and recovery checks |
 | CPSE systems | udp-control-plane-safety-monitor | Networked systems | Precision Time Protocol references | Packet loss, sequence gap, stale command, and operator override behavior |
