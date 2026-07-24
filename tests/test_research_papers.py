@@ -499,6 +499,26 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("not financial advice", text)
             self.assertIn("not a production trading system", text)
 
+    def test_session_high_low_breakout_validator_is_promoted_as_trading_systems_evidence(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("session-high-low-breakout-validator", text)
+            self.assertIn("Session High/Low Breakout Validator", text)
+            self.assertIn("Strategy Robustness Whitepaper", text)
+            self.assertIn("public-safe", text)
+            self.assertIn("Premarket, regular session, and close-range breakout validation", text)
+            self.assertIn("close-location value", text)
+            self.assertIn("VWAP distance", text)
+            self.assertIn("volume pressure", text)
+            self.assertIn("not financial advice", text)
+            self.assertIn("not a production trading system", text)
+
     def test_lob_benchmark_report_generator_is_promoted_as_quant_research_infrastructure(self) -> None:
         required_files = [
             ROOT / "README.md",
