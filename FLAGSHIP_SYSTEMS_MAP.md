@@ -28,6 +28,7 @@ Market data systems need deterministic parsing, sequencing, timestamping, buffer
 - `multicast-feed-arbitration-fpga`
 - `lobin-style-in-network-inference` (LOBIN-Style In-Network Inference: SmartNIC/P4-style public-safe fixed-point order-book feature scoring with latency/accuracy tradeoff reporting; not a production trading system)
 - `quantized-lob-inference-fpga` (Quantized LOB Inference FPGA: DeepLOB and LOBIN anchored public-safe fixed-point LOB inference with error bounds and throughput estimate; not a production trading system)
+- `hbm-lob-layout-benchmark` (HBM LOB Layout Benchmark: LOBFrame anchored public-safe HBM storage-layout report with bank conflict, row locality, and throughput evidence; not a production trading system)
 - `ptp-nanosecond-timestamp-core`
 - `axi-lite-register-map-generator`
 - `uvm-lite-verification-harness`

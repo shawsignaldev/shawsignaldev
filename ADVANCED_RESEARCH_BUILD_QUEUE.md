@@ -48,7 +48,7 @@ The standard for a promoted project is:
 | Low-latency FPGA datapath | PTP Fault Injection Core (`ptp-fault-injection-core`) | Timing systems | Precision Time Protocol references | public-safe Offset attack, Drift injection, Recovery, and Operator alert scenarios for cyber-physical timing resilience |
 | Hardware AI acceleration | LOBIN-Style In-Network Inference (`lobin-style-in-network-inference`) | SmartNIC/P4 | LOBIN | SmartNIC/P4-style public-safe fixed-point order-book feature scoring with latency/accuracy tradeoff reporting; not a production trading system |
 | Hardware AI acceleration | Quantized LOB Inference FPGA (`quantized-lob-inference-fpga`) | FPGA ML | DeepLOB, LOBIN | public-safe fixed-point LOB inference with error bounds and throughput estimate; not a production trading system |
-| Hardware AI acceleration | hbm-lob-layout-benchmark | Memory systems | LOBFrame | Bank conflict, row locality, throughput, and storage-layout report |
+| Hardware AI acceleration | HBM LOB Layout Benchmark (`hbm-lob-layout-benchmark`) | Memory systems | LOBFrame | public-safe HBM storage-layout report with bank conflict, row locality, and throughput evidence; not a production trading system |
 | Hardware AI acceleration | systolic-lob-feature-engine | Hardware acceleration | DeepLOB | Matrix/vector feature projection and cycle estimate with limitations |
 
 ## Wave 4: Options and Intraday Trading Research
