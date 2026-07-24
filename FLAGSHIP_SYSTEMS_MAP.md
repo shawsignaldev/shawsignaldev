@@ -208,6 +208,7 @@ Trading infrastructure and cyber-physical systems share the same engineering con
 - `degraded-mode-operator-console` (Degraded Mode Operator Console: normal, degraded, fault, operator-acknowledged, and recovery states with Precision Time Protocol context, safe mode operator cards, operator acknowledgement gates, and recovery checks)
 - `plant-market-control-analogy-lab` (Plant Market Control Analogy Lab: Precision Time Protocol references anchored public-safe Sensor, estimator, controller, actuator, and operator intervention model with sensor health, control error, and operator intervention evidence; not financial advice and not a production trading system)
 - `distributed-clock-health-dashboard` (Distributed Clock Health Dashboard: Precision Time Protocol references anchored public-safe Clock offset, drift, jitter, and degraded-state visualization with fleet health score, worst-node ranking, and operator action evidence; not financial advice and not a production trading system)
+- `real-time-alert-scheduler` (Real-Time Alert Scheduler: Real-time scheduling references anchored public-safe Deadline, priority inversion, dropped alert, and recovery checks with missed-deadline accounting, queue pressure, and operator recovery evidence; not financial advice and not a production trading system)
 - `ptp-fault-injection-core` (PTP Fault Injection Core: Precision Time Protocol public-safe Offset attack, Drift injection, Recovery, and Operator alert scenarios for cyber-physical timing resilience)
 
 ### Paper-backed foundation

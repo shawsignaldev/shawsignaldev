@@ -577,6 +577,26 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("not financial advice", text)
             self.assertIn("not a production trading system", text)
 
+    def test_real_time_alert_scheduler_is_promoted_as_embedded_systems_evidence(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("real-time-alert-scheduler", text)
+            self.assertIn("Real-Time Alert Scheduler", text)
+            self.assertIn("Real-time scheduling references", text)
+            self.assertIn("public-safe", text)
+            self.assertIn("Deadline, priority inversion, dropped alert, and recovery checks", text)
+            self.assertIn("missed-deadline accounting", text)
+            self.assertIn("queue pressure", text)
+            self.assertIn("operator recovery", text)
+            self.assertIn("not financial advice", text)
+            self.assertIn("not a production trading system", text)
+
     def test_lob_benchmark_report_generator_is_promoted_as_quant_research_infrastructure(self) -> None:
         required_files = [
             ROOT / "README.md",
