@@ -62,7 +62,7 @@ The standard for a promoted project is:
 | Options research | Open Interest Liquidity Regime Lab (`open-interest-liquidity-regime-lab`) | Options data | Strategy Robustness Whitepaper | public-safe OI, spread, volume, and contract survivability scoring with open interest growth and liquidity regime evidence; not financial advice and not a production trading system |
 | Quant research | First-Hour Momentum Regime Lab (`first-hour-momentum-regime-lab`) | Quant developer | LOBFrame | public-safe Open, midday, and close regime splits with expectancy, drawdown, and volume confirmation evidence; not financial advice and not a production trading system |
 | Quant research | Session High/Low Breakout Validator (`session-high-low-breakout-validator`) | Trading systems | Strategy Robustness Whitepaper | public-safe Premarket, regular session, and close-range breakout validation with close-location value, VWAP distance, and volume pressure evidence; not financial advice and not a production trading system |
-| Quant research | risk-adjusted-trade-sizing-engine | Risk systems | Strategy Robustness Whitepaper | Kelly-capped, drawdown-capped, volatility-scaled sizing report |
+| Quant research | Risk-Adjusted Trade Sizing Engine (`risk-adjusted-trade-sizing-engine`) | Risk systems | Strategy Robustness Whitepaper | public-safe Kelly-capped, drawdown-capped, volatility-scaled sizing report with risk budget, position debit, and dollars at risk evidence |
 
 ## Wave 5: Cyber-Physical and Operator Systems
 

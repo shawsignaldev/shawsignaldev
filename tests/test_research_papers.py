@@ -519,6 +519,24 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("not financial advice", text)
             self.assertIn("not a production trading system", text)
 
+    def test_risk_adjusted_trade_sizing_engine_is_promoted_as_risk_systems_evidence(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("risk-adjusted-trade-sizing-engine", text)
+            self.assertIn("Risk-Adjusted Trade Sizing Engine", text)
+            self.assertIn("Strategy Robustness Whitepaper", text)
+            self.assertIn("public-safe", text)
+            self.assertIn("Kelly-capped, drawdown-capped, volatility-scaled sizing report", text)
+            self.assertIn("risk budget", text)
+            self.assertIn("position debit", text)
+            self.assertIn("dollars at risk", text)
+
     def test_lob_benchmark_report_generator_is_promoted_as_quant_research_infrastructure(self) -> None:
         required_files = [
             ROOT / "README.md",
