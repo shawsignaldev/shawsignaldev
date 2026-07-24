@@ -419,6 +419,26 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("not financial advice", text)
             self.assertIn("not a production trading system", text)
 
+    def test_weekly_contract_selector_benchmark_is_promoted_as_options_systems_evidence(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("weekly-contract-selector-benchmark", text)
+            self.assertIn("Weekly Contract Selector Benchmark", text)
+            self.assertIn("Strategy Robustness Whitepaper", text)
+            self.assertIn("public-safe", text)
+            self.assertIn("Same-day versus nearest-weekly comparison", text)
+            self.assertIn("liquidity filters", text)
+            self.assertIn("target-delta selection", text)
+            self.assertIn("spread control", text)
+            self.assertIn("not financial advice", text)
+            self.assertIn("not a production trading system", text)
+
     def test_lob_benchmark_report_generator_is_promoted_as_quant_research_infrastructure(self) -> None:
         required_files = [
             ROOT / "README.md",
