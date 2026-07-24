@@ -55,7 +55,7 @@ The standard for a promoted project is:
 
 | Flagship system | Repository concept | Role signal | Paper anchor | Proof required before promotion |
 | --- | --- | --- | --- | --- |
-| Options research | zero-dte-opening-drive-study | Options strategy research | Strategy Robustness Whitepaper | First 5/15/45 minute windows, risk sizing, slippage, and walk-forward report |
+| Options research | Zero-DTE Opening Drive Study (`zero-dte-opening-drive-study`) | Options strategy research | Strategy Robustness Whitepaper | public-safe First 5/15/45 minute windows, risk sizing, slippage, and walk-forward report evidence; not financial advice |
 | Options research | gamma-vwap-confluence-lab | Options microstructure | Strategy Robustness Whitepaper | Gamma level, VWAP, volume pressure, and failed-breakout classification |
 | Options research | weekly-contract-selector-benchmark | Options systems | Strategy Robustness Whitepaper | Same-day versus nearest-weekly comparison with liquidity filters |
 | Options research | intraday-iv-expansion-monitor | Volatility research | Rough volatility and IV surface notes | IV expansion/compression labels and signal-quality report |

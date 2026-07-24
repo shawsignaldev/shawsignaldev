@@ -380,6 +380,25 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("limitations", text)
             self.assertIn("not a production trading system", text)
 
+    def test_zero_dte_opening_drive_study_is_promoted_as_options_research_evidence(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("zero-dte-opening-drive-study", text)
+            self.assertIn("Zero-DTE Opening Drive Study", text)
+            self.assertIn("Strategy Robustness Whitepaper", text)
+            self.assertIn("public-safe", text)
+            self.assertIn("First 5/15/45 minute windows", text)
+            self.assertIn("risk sizing", text)
+            self.assertIn("slippage", text)
+            self.assertIn("walk-forward report", text)
+            self.assertIn("not financial advice", text)
+
     def test_lob_benchmark_report_generator_is_promoted_as_quant_research_infrastructure(self) -> None:
         required_files = [
             ROOT / "README.md",
