@@ -557,6 +557,26 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("not financial advice", text)
             self.assertIn("not a production trading system", text)
 
+    def test_distributed_clock_health_dashboard_is_promoted_as_timing_systems_evidence(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("distributed-clock-health-dashboard", text)
+            self.assertIn("Distributed Clock Health Dashboard", text)
+            self.assertIn("Precision Time Protocol references", text)
+            self.assertIn("public-safe", text)
+            self.assertIn("Clock offset, drift, jitter, and degraded-state visualization", text)
+            self.assertIn("fleet health score", text)
+            self.assertIn("worst-node ranking", text)
+            self.assertIn("operator action", text)
+            self.assertIn("not financial advice", text)
+            self.assertIn("not a production trading system", text)
+
     def test_lob_benchmark_report_generator_is_promoted_as_quant_research_infrastructure(self) -> None:
         required_files = [
             ROOT / "README.md",
