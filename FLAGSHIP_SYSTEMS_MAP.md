@@ -16,6 +16,7 @@ Market data systems need deterministic parsing, sequencing, timestamping, buffer
 
 - `fpga-low-latency-market-data-engine`
 - `fpga-nanosecond-orderbook-risk-gate`
+- `fpga-trading-reference-architecture` (FPGA Trading Reference Architecture: public-safe consolidated FPGA trading reference architecture tying packet parser, order book, risk gate, latency budget, shared golden models, verification fixtures, and sequence integrity checks together; not financial advice and not a production trading system)
 - `itch-to-risk-full-pipeline` (ITCH To Risk Full Pipeline: FPGA-oriented public-safe end-to-end parse, book update, risk approval, and replay trace)
 - `fpga-udp-market-data-feed-handler`
 - `fpga-latency-arbitration-crossbar`

@@ -14,6 +14,7 @@ This file gives hiring teams a direct review path by role. The portfolio has bro
 
 - `fpga-low-latency-market-data-engine`
 - `fpga-nanosecond-orderbook-risk-gate`
+- `fpga-trading-reference-architecture` (FPGA Trading Reference Architecture: public-safe consolidated FPGA trading reference architecture tying packet parser, order book, risk gate, latency budget, shared golden models, verification fixtures, and sequence integrity checks together; not financial advice and not a production trading system)
 - `fpga-udp-market-data-feed-handler`
 - `fpga-latency-arbitration-crossbar`
 - `fpga-pcie-market-data-dma-engine`
@@ -150,4 +151,3 @@ The repositories avoid live financial decision automation and sensitive data. Th
 ## How To Use This File
 
 For a fast screen, read the role section, open the first three repositories, and skim the matching whitepaper. For a deeper screen, follow the evidence map into tests, docs, and CI results. The intended signal is breadth with organization: many repositories, but each role has a coherent path through them.
-

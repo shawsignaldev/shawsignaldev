@@ -962,6 +962,30 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("not financial advice", text)
             self.assertIn("not a production trading system", text)
 
+    def test_fpga_trading_reference_architecture_is_promoted_as_hardware_capstone(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+            ROOT / "PORTFOLIO_EVIDENCE_LEDGER.md",
+            ROOT / "ROLE_PACKETS.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("fpga-trading-reference-architecture", text)
+            self.assertIn("FPGA Trading Reference Architecture", text)
+            self.assertIn("public-safe consolidated FPGA trading reference architecture", text)
+            self.assertIn("shared golden models", text)
+            self.assertIn("verification fixtures", text)
+            self.assertIn("packet parser", text)
+            self.assertIn("order book", text)
+            self.assertIn("risk gate", text)
+            self.assertIn("latency budget", text)
+            self.assertIn("sequence integrity", text)
+            self.assertIn("not financial advice", text)
+            self.assertIn("not a production trading system", text)
+
 
 if __name__ == "__main__":
     unittest.main()

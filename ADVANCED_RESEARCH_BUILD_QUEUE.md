@@ -81,6 +81,7 @@ The standard for a promoted project is:
 
 | Flagship system | Repository concept | Role signal | Paper anchor | Proof required before promotion |
 | --- | --- | --- | --- | --- |
+| Low-latency FPGA datapath | FPGA Trading Reference Architecture (`fpga-trading-reference-architecture`) | Hardware / FPGA engineering | FPGA Trading Architecture Whitepaper | public-safe consolidated FPGA trading reference architecture tying packet parser, order book, risk gate, latency budget, shared golden models, verification fixtures, and sequence integrity checks together; not financial advice and not a production trading system |
 | Market simulation | Exchange-in-a-Box Simulator (`exchange-in-a-box-simulator`) | Market infrastructure | Market Data Infrastructure Whitepaper | public-safe unified exchange-in-a-box simulator tying market data, matching, auctions, latency, replay, and agent strategies together with shared event schema, replay correctness, matching fills, and auction clears; not financial advice and not a production trading system |
 
 ## Promotion Rules
