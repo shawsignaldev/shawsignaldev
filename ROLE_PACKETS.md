@@ -43,6 +43,7 @@ Public repositories do not claim production exchange certification, board deploy
 ### Primary repositories
 
 - `agentic-strategy-search-lab`
+- `cross-universe-strategy-benchmark` (Cross-Universe Strategy Benchmark: public-safe strategy research benchmark that runs common evaluation metrics across a defined universe and stores reports with walk-forward validation, expectancy, profit factor, max drawdown, universe coverage, stored reports, and explicit verdicts; not financial advice and not a production trading system)
 - `walk-forward-auto-optimizer`
 - `strategy-survivorship-analyzer`
 - `backtest-result-warehouse`

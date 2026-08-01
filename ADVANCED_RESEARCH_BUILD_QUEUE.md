@@ -83,6 +83,7 @@ The standard for a promoted project is:
 | --- | --- | --- | --- | --- |
 | Low-latency FPGA datapath | FPGA Trading Reference Architecture (`fpga-trading-reference-architecture`) | Hardware / FPGA engineering | FPGA Trading Architecture Whitepaper | public-safe consolidated FPGA trading reference architecture tying packet parser, order book, risk gate, latency budget, shared golden models, verification fixtures, and sequence integrity checks together; not financial advice and not a production trading system |
 | Market simulation | Exchange-in-a-Box Simulator (`exchange-in-a-box-simulator`) | Market infrastructure | Market Data Infrastructure Whitepaper | public-safe unified exchange-in-a-box simulator tying market data, matching, auctions, latency, replay, and agent strategies together with shared event schema, replay correctness, matching fills, and auction clears; not financial advice and not a production trading system |
+| Strategy research | Cross-Universe Strategy Benchmark (`cross-universe-strategy-benchmark`) | Quant developer / research engineering | Strategy Robustness Whitepaper | public-safe strategy research benchmark that runs common evaluation metrics across a defined universe and stores reports with walk-forward validation, expectancy, profit factor, max drawdown, universe coverage, stored reports, and explicit verdicts; not financial advice and not a production trading system |
 
 ## Promotion Rules
 

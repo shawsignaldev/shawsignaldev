@@ -986,6 +986,32 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("not financial advice", text)
             self.assertIn("not a production trading system", text)
 
+    def test_cross_universe_strategy_benchmark_is_promoted_as_strategy_research_capstone(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+            ROOT / "PORTFOLIO_EVIDENCE_LEDGER.md",
+            ROOT / "ROLE_PACKETS.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("cross-universe-strategy-benchmark", text)
+            self.assertIn("Cross-Universe Strategy Benchmark", text)
+            self.assertIn(
+                "strategy research benchmark that runs common evaluation metrics across a defined universe and stores reports",
+                text,
+            )
+            self.assertIn("walk-forward validation", text)
+            self.assertIn("expectancy", text)
+            self.assertIn("profit factor", text)
+            self.assertIn("max drawdown", text)
+            self.assertIn("universe coverage", text)
+            self.assertIn("stored reports", text)
+            self.assertIn("not financial advice", text)
+            self.assertIn("not a production trading system", text)
+
 
 if __name__ == "__main__":
     unittest.main()

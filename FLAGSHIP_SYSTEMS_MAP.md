@@ -161,6 +161,7 @@ AI should accelerate hypothesis generation, literature review, experiment planni
 
 - `agentic-strategy-search-lab`
 - `research-queue-state-machine` (Research Queue State Machine: evidence-gated proposed, tested, challenged, promoted, watchlisted, and rejected research workflow with human approval gates)
+- `cross-universe-strategy-benchmark` (Cross-Universe Strategy Benchmark: public-safe strategy research benchmark that runs common evaluation metrics across a defined universe and stores reports with walk-forward validation, expectancy, profit factor, max drawdown, universe coverage, stored reports, and explicit verdicts; not financial advice and not a production trading system)
 - `ai-quant-research-os`
 - `agentic-quant-researcher`
 - `paper-to-alpha-reproduction-suite`
