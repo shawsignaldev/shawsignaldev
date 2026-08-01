@@ -616,6 +616,27 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("not financial advice", text)
             self.assertIn("not a production trading system", text)
 
+    def test_sensor_fusion_market_risk_bridge_is_promoted_as_cpse_quant_overlap_evidence(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("sensor-fusion-market-risk-bridge", text)
+            self.assertIn("Sensor Fusion Market Risk Bridge", text)
+            self.assertIn("Kalman filtering and state estimation notes", text)
+            self.assertIn("public-safe", text)
+            self.assertIn("Noisy sensor analogy connected to noisy market state estimation", text)
+            self.assertIn("Kalman gain", text)
+            self.assertIn("posterior variance", text)
+            self.assertIn("low-trust sensor", text)
+            self.assertIn("residual risk", text)
+            self.assertIn("not financial advice", text)
+            self.assertIn("not a production trading system", text)
+
     def test_lob_benchmark_report_generator_is_promoted_as_quant_research_infrastructure(self) -> None:
         required_files = [
             ROOT / "README.md",
