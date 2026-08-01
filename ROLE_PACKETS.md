@@ -82,6 +82,7 @@ The public portfolio does not claim a universal profitable strategy. It demonstr
 - `market-replay-hardware-harness`
 - `exchange-microburst-simulator` (Exchange Microburst Simulator: public-safe exchange microburst simulator for queue pressure, tail latency, packet drops, capacity planning, market infrastructure review, and operator actions; not financial advice and not a production trading system)
 - `ouch-order-entry-gateway-simulator` (OUCH Order Entry Gateway Simulator: public-safe OUCH-style order entry simulator for session sequencing, risk rejection, throttle pressure, ack latency, order gateway review, market infrastructure, and operator actions; not financial advice, not a production trading system, and not a real OUCH implementation)
+- `drop-copy-reconciliation-engine` (Drop-Copy Reconciliation Engine: public-safe drop-copy reconciliation engine for gateway decisions, execution reports, quantity mismatch detection, sequence gaps, duplicate execution report detection, operator escalation, and market infrastructure break reports; not financial advice, not a production trading system, and not connected to a broker or exchange)
 - `fix-session-replay-analyzer`
 - `opra-options-feed-normalizer`
 - `market-halt-circuit-breaker-simulator`

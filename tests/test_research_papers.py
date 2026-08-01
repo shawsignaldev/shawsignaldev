@@ -1149,6 +1149,31 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("not a production trading system", text)
             self.assertIn("not a real OUCH implementation", text)
 
+    def test_drop_copy_reconciliation_engine_is_promoted_as_post_trade_infrastructure(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+            ROOT / "PORTFOLIO_EVIDENCE_LEDGER.md",
+            ROOT / "ROLE_PACKETS.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("drop-copy-reconciliation-engine", text)
+            self.assertIn("Drop-Copy Reconciliation Engine", text)
+            self.assertIn("drop-copy reconciliation", text)
+            self.assertIn("gateway decisions", text)
+            self.assertIn("execution reports", text)
+            self.assertIn("quantity mismatch", text)
+            self.assertIn("sequence gaps", text)
+            self.assertIn("duplicate execution report", text)
+            self.assertIn("operator escalation", text)
+            self.assertIn("market infrastructure", text)
+            self.assertIn("not financial advice", text)
+            self.assertIn("not a production trading system", text)
+            self.assertIn("not connected to a broker or exchange", text)
+
 
 if __name__ == "__main__":
     unittest.main()
