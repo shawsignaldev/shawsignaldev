@@ -1056,6 +1056,29 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("not financial advice", text)
             self.assertIn("not a production trading system", text)
 
+    def test_fpga_orderbook_verification_suite_is_promoted_as_hardware_verification_capstone(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+            ROOT / "PORTFOLIO_EVIDENCE_LEDGER.md",
+            ROOT / "ROLE_PACKETS.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("fpga-orderbook-verification-suite", text)
+            self.assertIn("FPGA Orderbook Verification Suite", text)
+            self.assertIn("golden model replay", text)
+            self.assertIn("sequence monotonicity", text)
+            self.assertIn("crossed book", text)
+            self.assertIn("risk gate", text)
+            self.assertIn("coverage matrix", text)
+            self.assertIn("RTL boundary", text)
+            self.assertIn("SystemVerilog assertion", text)
+            self.assertIn("not financial advice", text)
+            self.assertIn("not a production trading system", text)
+
 
 if __name__ == "__main__":
     unittest.main()

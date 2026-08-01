@@ -15,6 +15,7 @@ This file gives hiring teams a direct review path by role. The portfolio has bro
 - `fpga-low-latency-market-data-engine`
 - `fpga-nanosecond-orderbook-risk-gate`
 - `fpga-trading-reference-architecture` (FPGA Trading Reference Architecture: public-safe consolidated FPGA trading reference architecture tying packet parser, order book, risk gate, latency budget, shared golden models, verification fixtures, and sequence integrity checks together; not financial advice and not a production trading system)
+- `fpga-orderbook-verification-suite` (FPGA Orderbook Verification Suite: public-safe FPGA verification suite with golden model replay, sequence monotonicity, crossed book invariants, risk gate checks, coverage matrix reporting, RTL boundary mapping, and SystemVerilog assertion framing; not financial advice and not a production trading system)
 - `fpga-udp-market-data-feed-handler`
 - `fpga-latency-arbitration-crossbar`
 - `fpga-pcie-market-data-dma-engine`
