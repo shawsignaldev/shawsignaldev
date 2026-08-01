@@ -1101,6 +1101,29 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("not financial advice", text)
             self.assertIn("not a production trading system", text)
 
+    def test_exchange_microburst_simulator_is_promoted_as_market_infrastructure_capstone(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+            ROOT / "PORTFOLIO_EVIDENCE_LEDGER.md",
+            ROOT / "ROLE_PACKETS.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("exchange-microburst-simulator", text)
+            self.assertIn("Exchange Microburst Simulator", text)
+            self.assertIn("exchange microburst", text)
+            self.assertIn("queue pressure", text)
+            self.assertIn("tail latency", text)
+            self.assertIn("packet drops", text)
+            self.assertIn("capacity planning", text)
+            self.assertIn("market infrastructure", text)
+            self.assertIn("operator actions", text)
+            self.assertIn("not financial advice", text)
+            self.assertIn("not a production trading system", text)
+
 
 if __name__ == "__main__":
     unittest.main()

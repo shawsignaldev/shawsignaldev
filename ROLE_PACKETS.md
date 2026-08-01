@@ -80,6 +80,7 @@ The public portfolio does not claim a universal profitable strategy. It demonstr
 - `market-data-schema-contracts`
 - `market-data-reconciliation-engine`
 - `market-replay-hardware-harness`
+- `exchange-microburst-simulator` (Exchange Microburst Simulator: public-safe exchange microburst simulator for queue pressure, tail latency, packet drops, capacity planning, market infrastructure review, and operator actions; not financial advice and not a production trading system)
 - `fix-session-replay-analyzer`
 - `opra-options-feed-normalizer`
 - `market-halt-circuit-breaker-simulator`
