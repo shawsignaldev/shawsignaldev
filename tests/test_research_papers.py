@@ -1124,6 +1124,31 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("not financial advice", text)
             self.assertIn("not a production trading system", text)
 
+    def test_ouch_order_entry_gateway_simulator_is_promoted_as_order_entry_infrastructure(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+            ROOT / "PORTFOLIO_EVIDENCE_LEDGER.md",
+            ROOT / "ROLE_PACKETS.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("ouch-order-entry-gateway-simulator", text)
+            self.assertIn("OUCH Order Entry Gateway Simulator", text)
+            self.assertIn("OUCH-style order entry", text)
+            self.assertIn("session sequencing", text)
+            self.assertIn("risk rejection", text)
+            self.assertIn("throttle pressure", text)
+            self.assertIn("ack latency", text)
+            self.assertIn("order gateway", text)
+            self.assertIn("market infrastructure", text)
+            self.assertIn("operator actions", text)
+            self.assertIn("not financial advice", text)
+            self.assertIn("not a production trading system", text)
+            self.assertIn("not a real OUCH implementation", text)
+
 
 if __name__ == "__main__":
     unittest.main()
