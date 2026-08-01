@@ -637,6 +637,26 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("not financial advice", text)
             self.assertIn("not a production trading system", text)
 
+    def test_timing_attack_incident_runbook_is_promoted_as_security_operations_evidence(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("timing-attack-incident-runbook", text)
+            self.assertIn("Timing Attack Incident Runbook", text)
+            self.assertIn("Precision Time Protocol references", text)
+            self.assertIn("public-safe", text)
+            self.assertIn("Attack, detection, severity, mitigation, and postmortem template", text)
+            self.assertIn("escalation", text)
+            self.assertIn("operator communication bridge", text)
+            self.assertIn("trusted-source recovery", text)
+            self.assertIn("not financial advice", text)
+            self.assertIn("not a production trading system", text)
+
     def test_lob_benchmark_report_generator_is_promoted_as_quant_research_infrastructure(self) -> None:
         required_files = [
             ROOT / "README.md",
