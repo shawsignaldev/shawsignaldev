@@ -657,6 +657,26 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("not financial advice", text)
             self.assertIn("not a production trading system", text)
 
+    def test_evidence_ledger_dashboard_is_promoted_as_software_engineering_evidence(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("evidence-ledger-dashboard", text)
+            self.assertIn("Evidence Ledger Dashboard", text)
+            self.assertIn("Model-risk and evidence-gating notes", text)
+            self.assertIn("public-safe", text)
+            self.assertIn("Capability-to-proof dashboard with missing-evidence warnings", text)
+            self.assertIn("owner coverage", text)
+            self.assertIn("rejected proof", text)
+            self.assertIn("blocked verdict", text)
+            self.assertIn("not financial advice", text)
+            self.assertIn("not a production trading system", text)
+
     def test_lob_benchmark_report_generator_is_promoted_as_quant_research_infrastructure(self) -> None:
         required_files = [
             ROOT / "README.md",
