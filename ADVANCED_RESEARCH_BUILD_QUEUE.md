@@ -75,7 +75,7 @@ The standard for a promoted project is:
 | CPSE systems | Sensor Fusion Market Risk Bridge (`sensor-fusion-market-risk-bridge`) | CPSE/quant overlap | Kalman filtering and state estimation notes | public-safe Noisy sensor analogy connected to noisy market state estimation with Kalman gain, posterior variance, low-trust sensor, and residual risk evidence; not financial advice and not a production trading system |
 | CPSE systems | Timing Attack Incident Runbook (`timing-attack-incident-runbook`) | Security operations | Precision Time Protocol references | public-safe Attack, detection, severity, mitigation, and postmortem template with escalation, operator communication bridge, and trusted-source recovery evidence; not financial advice and not a production trading system |
 | Operator tooling | Evidence Ledger Dashboard (`evidence-ledger-dashboard`) | Software engineering | Model-risk and evidence-gating notes | public-safe Capability-to-proof dashboard with missing-evidence warnings, owner coverage, rejected proof, and blocked verdict evidence; not financial advice and not a production trading system |
-| Operator tooling | recruiter-review-path-generator | Portfolio systems | Internal role packet docs | Role-specific artifact path generated from project metadata |
+| Operator tooling | Recruiter Review Path Generator (`recruiter-review-path-generator`) | Portfolio systems | Internal role packet docs | public-safe Role-specific artifact path generated from project metadata with selected repositories, review steps, missing link warnings, and coverage score evidence; not financial advice and not a production trading system |
 
 ## Promotion Rules
 

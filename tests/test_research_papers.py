@@ -677,6 +677,27 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("not financial advice", text)
             self.assertIn("not a production trading system", text)
 
+    def test_recruiter_review_path_generator_is_promoted_as_portfolio_systems_evidence(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("recruiter-review-path-generator", text)
+            self.assertIn("Recruiter Review Path Generator", text)
+            self.assertIn("Internal role packet docs", text)
+            self.assertIn("public-safe", text)
+            self.assertIn("Role-specific artifact path generated from project metadata", text)
+            self.assertIn("selected repositories", text)
+            self.assertIn("review steps", text)
+            self.assertIn("missing link warnings", text)
+            self.assertIn("coverage score", text)
+            self.assertIn("not financial advice", text)
+            self.assertIn("not a production trading system", text)
+
     def test_lob_benchmark_report_generator_is_promoted_as_quant_research_infrastructure(self) -> None:
         required_files = [
             ROOT / "README.md",
