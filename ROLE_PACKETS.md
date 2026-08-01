@@ -111,6 +111,7 @@ The portfolio uses deterministic public fixtures and sanitized examples. It does
 - `udp-telemetry-control-plane`
 - `time-sync-attack-simulator`
 - `operator-console-design-system`
+- `cpse-market-control-room` (CPSE Market Control Room: public-safe CPSE control room tying timing health, telemetry integrity, sensor fusion, control loop stability, operator dashboard summaries, and degraded-mode decisions together; not a production trading system and not a deployed industrial control system)
 
 ### Interview narrative
 

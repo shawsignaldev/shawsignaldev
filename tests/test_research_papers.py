@@ -1012,6 +1012,28 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("not financial advice", text)
             self.assertIn("not a production trading system", text)
 
+    def test_cpse_market_control_room_is_promoted_as_cpse_capstone(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+            ROOT / "PORTFOLIO_EVIDENCE_LEDGER.md",
+            ROOT / "ROLE_PACKETS.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("cpse-market-control-room", text)
+            self.assertIn("CPSE Market Control Room", text)
+            self.assertIn("timing health", text)
+            self.assertIn("telemetry integrity", text)
+            self.assertIn("sensor fusion", text)
+            self.assertIn("control loop stability", text)
+            self.assertIn("operator dashboard", text)
+            self.assertIn("degraded-mode", text)
+            self.assertIn("not a production trading system", text)
+            self.assertIn("not a deployed industrial control system", text)
+
 
 if __name__ == "__main__":
     unittest.main()

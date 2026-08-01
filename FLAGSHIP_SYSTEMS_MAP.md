@@ -208,6 +208,7 @@ Trading infrastructure and cyber-physical systems share the same engineering con
 - `udp-telemetry-control-plane`
 - `time-sync-attack-simulator`
 - `operator-console-design-system`
+- `cpse-market-control-room` (CPSE Market Control Room: public-safe CPSE control room tying timing health, telemetry integrity, sensor fusion, control loop stability, operator dashboard summaries, and degraded-mode decisions together; not a production trading system and not a deployed industrial control system)
 - `degraded-mode-operator-console` (Degraded Mode Operator Console: normal, degraded, fault, operator-acknowledged, and recovery states with Precision Time Protocol context, safe mode operator cards, operator acknowledgement gates, and recovery checks)
 - `plant-market-control-analogy-lab` (Plant Market Control Analogy Lab: Precision Time Protocol references anchored public-safe Sensor, estimator, controller, actuator, and operator intervention model with sensor health, control error, and operator intervention evidence; not financial advice and not a production trading system)
 - `distributed-clock-health-dashboard` (Distributed Clock Health Dashboard: Precision Time Protocol references anchored public-safe Clock offset, drift, jitter, and degraded-state visualization with fleet health score, worst-node ranking, and operator action evidence; not financial advice and not a production trading system)
