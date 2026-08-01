@@ -190,6 +190,7 @@ class ResearchPaperTests(unittest.TestCase):
             "Wave 3: Hardware Acceleration and Formal Verification",
             "Wave 4: Options and Intraday Trading Research",
             "Wave 5: Cyber-Physical and Operator Systems",
+            "Wave 6: Integration Capstones",
             "DeepLOB",
             "ABIDES",
             "LOBFrame",
@@ -936,6 +937,30 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("ABIDES", text)
             self.assertIn("LOBFrame", text)
             self.assertIn("public-safe", text)
+
+    def test_exchange_in_a_box_simulator_is_promoted_as_market_simulation_capstone(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+            ROOT / "PORTFOLIO_EVIDENCE_LEDGER.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("exchange-in-a-box-simulator", text)
+            self.assertIn("Exchange-in-a-Box Simulator", text)
+            self.assertIn(
+                "unified exchange-in-a-box simulator tying market data, matching, auctions, latency, replay, and agent strategies together",
+                text,
+            )
+            self.assertIn("shared event schema", text)
+            self.assertIn("replay correctness", text)
+            self.assertIn("matching fills", text)
+            self.assertIn("auction clears", text)
+            self.assertIn("public-safe", text)
+            self.assertIn("not financial advice", text)
+            self.assertIn("not a production trading system", text)
 
 
 if __name__ == "__main__":

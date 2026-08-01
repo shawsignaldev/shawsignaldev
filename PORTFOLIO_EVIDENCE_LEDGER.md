@@ -33,10 +33,9 @@ Strong evidence includes executable tests, CI results, source files, architectur
 
 The portfolio is now broad and organized, but the strongest future gains come from integration:
 
-1. A unified exchange-in-a-box simulator tying market data, matching, auctions, latency, replay, and agent strategies together.
+1. Exchange-in-a-Box Simulator (`exchange-in-a-box-simulator`), a public-safe unified exchange-in-a-box simulator tying market data, matching, auctions, latency, replay, and agent strategies together with shared event schema, replay correctness, matching fills, and auction clears evidence; not financial advice and not a production trading system.
 2. A consolidated FPGA trading reference architecture with shared golden models and verification fixtures.
 3. A strategy research benchmark that runs common evaluation metrics across a defined universe and stores reports.
 4. A CPSE capstone that connects timing, telemetry, sensors, control loops, and operator dashboards.
 
 Those are the natural next proof layers after the current 200-repository portfolio, whitepapers, reading map, and role packets.
-

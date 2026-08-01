@@ -73,6 +73,7 @@ Useful quant ML requires market microstructure realism: limit order book feature
 - `abides-market-sim-lab`
 - `abides-agent-strategy-zoo` (ABIDES Agent Strategy Zoo: public-safe deterministic event simulation for market maker, momentum, noise, informed, and latency-arbitrage agents with agent PnL and inventory risk)
 - `abides-latency-impact-study` (ABIDES Latency Impact Study: market infrastructure pairwise latency matrix, latency advantage, fill rate, opportunity loss, and execution-quality report)
+- `exchange-in-a-box-simulator` (Exchange-in-a-Box Simulator: public-safe unified exchange-in-a-box simulator tying market data, matching, auctions, latency, replay, and agent strategies together with shared event schema, replay correctness, matching fills, and auction clears; not financial advice and not a production trading system)
 - `market-impact-validation-suite` (Market Impact Validation Suite: ABIDES and LOBFrame anchored public-safe execution research with temporary impact, permanent impact, implementation shortfall, decay half-life, child-order scoring, and limitations reporting)
 - `market-sim-scenario-library` (Market Sim Scenario Library: ABIDES-style stress, halt, auction, latency, and liquidity-drought fixtures with deterministic seeds)
 - `queue-reactive-orderbook-model`

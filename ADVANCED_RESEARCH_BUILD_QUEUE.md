@@ -77,6 +77,12 @@ The standard for a promoted project is:
 | Operator tooling | Evidence Ledger Dashboard (`evidence-ledger-dashboard`) | Software engineering | Model-risk and evidence-gating notes | public-safe Capability-to-proof dashboard with missing-evidence warnings, owner coverage, rejected proof, and blocked verdict evidence; not financial advice and not a production trading system |
 | Operator tooling | Recruiter Review Path Generator (`recruiter-review-path-generator`) | Portfolio systems | Internal role packet docs | public-safe Role-specific artifact path generated from project metadata with selected repositories, review steps, missing link warnings, and coverage score evidence; not financial advice and not a production trading system |
 
+## Wave 6: Integration Capstones
+
+| Flagship system | Repository concept | Role signal | Paper anchor | Proof required before promotion |
+| --- | --- | --- | --- | --- |
+| Market simulation | Exchange-in-a-Box Simulator (`exchange-in-a-box-simulator`) | Market infrastructure | Market Data Infrastructure Whitepaper | public-safe unified exchange-in-a-box simulator tying market data, matching, auctions, latency, replay, and agent strategies together with shared event schema, replay correctness, matching fills, and auction clears; not financial advice and not a production trading system |
+
 ## Promotion Rules
 
 The queue is useful only if each project earns promotion. A project stays in backlog until it has tests, CI, clear docs, public-safe examples, and a measured or explicitly bounded claim. The best projects should then be reflected in `FLAGSHIP_SYSTEMS_MAP.md`, `ROLE_PACKETS.md`, `PORTFOLIO_EVIDENCE_LEDGER.md`, and the public site.
