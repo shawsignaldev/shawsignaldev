@@ -44,6 +44,7 @@ Public repositories do not claim production exchange certification, board deploy
 
 - `agentic-strategy-search-lab`
 - `cross-universe-strategy-benchmark` (Cross-Universe Strategy Benchmark: public-safe strategy research benchmark that runs common evaluation metrics across a defined universe and stores reports with walk-forward validation, expectancy, profit factor, max drawdown, universe coverage, stored reports, and explicit verdicts; not financial advice and not a production trading system)
+- `strategy-overfitting-firewall` (Strategy Overfitting Firewall: public-safe quant research firewall using Deflated Sharpe, Probability of backtest overfitting, multiple-testing penalty, walk-forward consistency, parameter fragility, and human approval boundaries; not financial advice and not a production trading system)
 - `walk-forward-auto-optimizer`
 - `strategy-survivorship-analyzer`
 - `backtest-result-warehouse`

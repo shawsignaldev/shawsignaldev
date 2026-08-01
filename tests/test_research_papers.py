@@ -1034,6 +1034,28 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("not a production trading system", text)
             self.assertIn("not a deployed industrial control system", text)
 
+    def test_strategy_overfitting_firewall_is_promoted_as_research_governance_capstone(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+            ROOT / "PORTFOLIO_EVIDENCE_LEDGER.md",
+            ROOT / "ROLE_PACKETS.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("strategy-overfitting-firewall", text)
+            self.assertIn("Strategy Overfitting Firewall", text)
+            self.assertIn("Deflated Sharpe", text)
+            self.assertIn("Probability of backtest overfitting", text)
+            self.assertIn("multiple-testing penalty", text)
+            self.assertIn("walk-forward consistency", text)
+            self.assertIn("parameter fragility", text)
+            self.assertIn("human approval", text)
+            self.assertIn("not financial advice", text)
+            self.assertIn("not a production trading system", text)
+
 
 if __name__ == "__main__":
     unittest.main()
