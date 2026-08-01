@@ -1079,6 +1079,28 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("not financial advice", text)
             self.assertIn("not a production trading system", text)
 
+    def test_lob_alpha_decay_research_lab_is_promoted_as_microstructure_capstone(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+            ROOT / "PORTFOLIO_EVIDENCE_LEDGER.md",
+            ROOT / "ROLE_PACKETS.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("lob-alpha-decay-research-lab", text)
+            self.assertIn("LOB Alpha Decay Research Lab", text)
+            self.assertIn("signal half-life", text)
+            self.assertIn("horizon decay", text)
+            self.assertIn("cost-adjusted edge", text)
+            self.assertIn("information coefficient", text)
+            self.assertIn("turnover cost drag", text)
+            self.assertIn("limit order book", text)
+            self.assertIn("not financial advice", text)
+            self.assertIn("not a production trading system", text)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -63,6 +63,7 @@ Useful quant ML requires market microstructure realism: limit order book feature
 ### Core repositories
 
 - `market-microstructure-research-platform`
+- `lob-alpha-decay-research-lab` (LOB Alpha Decay Research Lab: public-safe limit order book research lab for signal half-life, horizon decay, cost-adjusted edge, information coefficient, and turnover cost drag; not financial advice and not a production trading system)
 - `deeplob-reproduction-lab`
 - `deeplob-leakage-test-harness` (DeepLOB Leakage Test Harness: benchmark hygiene with chronological split, label horizon audit, lookahead leakage detection, tensor shape checks, and baseline metrics)
 - `hlob-depth-persistence-study` (HLOB Depth Persistence Study: deep-level persistence features, shallow-versus-deep ablation report, and horizon persistence scores)

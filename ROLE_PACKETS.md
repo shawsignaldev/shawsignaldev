@@ -52,6 +52,7 @@ Public repositories do not claim production exchange certification, board deploy
 - `realistic-fill-backtester`
 - `spread-impact-slippage-estimator`
 - `queue-reactive-orderbook-model`
+- `lob-alpha-decay-research-lab` (LOB Alpha Decay Research Lab: public-safe limit order book research lab for signal half-life, horizon decay, cost-adjusted edge, information coefficient, and turnover cost drag; not financial advice and not a production trading system)
 - `lob-transformer-reproduction`
 - `market-microstructure-research-platform`
 - `llm-market-hypothesis-auditor`
