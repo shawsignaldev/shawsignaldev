@@ -597,6 +597,25 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("not financial advice", text)
             self.assertIn("not a production trading system", text)
 
+    def test_udp_control_plane_safety_monitor_is_promoted_as_networked_systems_evidence(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("udp-control-plane-safety-monitor", text)
+            self.assertIn("UDP Control Plane Safety Monitor", text)
+            self.assertIn("Precision Time Protocol references", text)
+            self.assertIn("public-safe", text)
+            self.assertIn("Packet loss, sequence gap, stale command, and operator override behavior", text)
+            self.assertIn("rejected command", text)
+            self.assertIn("operator override", text)
+            self.assertIn("not financial advice", text)
+            self.assertIn("not a production trading system", text)
+
     def test_lob_benchmark_report_generator_is_promoted_as_quant_research_infrastructure(self) -> None:
         required_files = [
             ROOT / "README.md",
