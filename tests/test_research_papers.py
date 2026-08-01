@@ -1174,6 +1174,31 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("not a production trading system", text)
             self.assertIn("not connected to a broker or exchange", text)
 
+    def test_session_heartbeat_failover_monitor_is_promoted_as_session_liveness_infrastructure(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+            ROOT / "PORTFOLIO_EVIDENCE_LEDGER.md",
+            ROOT / "ROLE_PACKETS.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("session-heartbeat-failover-monitor", text)
+            self.assertIn("Session Heartbeat Failover Monitor", text)
+            self.assertIn("session heartbeat", text)
+            self.assertIn("session liveness", text)
+            self.assertIn("heartbeat gaps", text)
+            self.assertIn("primary backup failover", text)
+            self.assertIn("split-brain warnings", text)
+            self.assertIn("failover SLA", text)
+            self.assertIn("operator escalation", text)
+            self.assertIn("market infrastructure", text)
+            self.assertIn("not financial advice", text)
+            self.assertIn("not a production trading system", text)
+            self.assertIn("not connected to a broker or exchange", text)
+
 
 if __name__ == "__main__":
     unittest.main()
