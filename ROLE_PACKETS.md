@@ -47,6 +47,7 @@ Public repositories do not claim production exchange certification, board deploy
 - `cross-universe-strategy-benchmark` (Cross-Universe Strategy Benchmark: public-safe strategy research benchmark that runs common evaluation metrics across a defined universe and stores reports with walk-forward validation, expectancy, profit factor, max drawdown, universe coverage, stored reports, and explicit verdicts; not financial advice and not a production trading system)
 - `strategy-overfitting-firewall` (Strategy Overfitting Firewall: public-safe quant research firewall using Deflated Sharpe, Probability of backtest overfitting, multiple-testing penalty, walk-forward consistency, parameter fragility, and human approval boundaries; not financial advice and not a production trading system)
 - `walk-forward-auto-optimizer`
+- `event-time-feature-lineage-auditor` (Event-Time Feature Lineage Auditor: public-safe leakage-safe research infrastructure for point-in-time feature provenance, availability time checks, embargo window enforcement, lookahead leakage detection, missing source event reporting, and traceability score evidence; not financial advice, not a production trading system, and not connected to a broker or exchange)
 - `strategy-survivorship-analyzer`
 - `backtest-result-warehouse`
 - `realistic-fill-backtester`

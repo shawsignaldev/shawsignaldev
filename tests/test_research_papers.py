@@ -1275,6 +1275,30 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("not a production trading system", text)
             self.assertIn("not connected to a broker or exchange", text)
 
+    def test_event_time_feature_lineage_auditor_is_promoted_as_leakage_safe_research_infrastructure(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+            ROOT / "PORTFOLIO_EVIDENCE_LEDGER.md",
+            ROOT / "ROLE_PACKETS.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("event-time-feature-lineage-auditor", text)
+            self.assertIn("Event-Time Feature Lineage Auditor", text)
+            self.assertIn("point-in-time feature provenance", text)
+            self.assertIn("availability time", text)
+            self.assertIn("embargo window", text)
+            self.assertIn("lookahead leakage", text)
+            self.assertIn("missing source event", text)
+            self.assertIn("traceability score", text)
+            self.assertIn("public-safe", text)
+            self.assertIn("not financial advice", text)
+            self.assertIn("not a production trading system", text)
+            self.assertIn("not connected to a broker or exchange", text)
+
 
 if __name__ == "__main__":
     unittest.main()

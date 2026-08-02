@@ -84,6 +84,7 @@ Useful quant ML requires market microstructure realism: limit order book feature
 - `low-latency-trading-system-capstone` (Low-Latency Trading System Capstone: public-safe integrated market infrastructure capstone tying market data feed handler, sequence-gap detection, limit order book reconstruction, pre-trade risk gate, order gateway, drop-copy reconciliation, session heartbeat failover, deterministic replay, and latency budget evidence together; not financial advice, not a production trading system, and not connected to a broker or exchange)
 - `fpga-smartnic-market-data-core` (FPGA SmartNIC Market Data Core: public-safe line-rate market infrastructure capstone tying SmartNIC flow table, market data packet parser, sequence-gap detection, hardware timestamp normalization, DMA descriptor budgeting, AXI Stream boundary, and PCIe DMA boundary evidence together; not financial advice, not a production trading system, and not connected to a broker or exchange)
 - `market-data-feed-quality-gate` (Market Data Feed Quality Gate: public-safe feed quality gate for market-data streams with sequence-gap detection, timestamp sanity, stale-feed detection, crossed quote checks, latency trust scoring, and operator verdict evidence; not financial advice, not a production trading system, and not connected to a broker or exchange)
+- `event-time-feature-lineage-auditor` (Event-Time Feature Lineage Auditor: public-safe leakage-safe research infrastructure for point-in-time feature provenance, availability time checks, embargo window enforcement, lookahead leakage detection, missing source event reporting, and traceability score evidence; not financial advice, not a production trading system, and not connected to a broker or exchange)
 - `market-impact-validation-suite` (Market Impact Validation Suite: ABIDES and LOBFrame anchored public-safe execution research with temporary impact, permanent impact, implementation shortfall, decay half-life, child-order scoring, and limitations reporting)
 - `market-sim-scenario-library` (Market Sim Scenario Library: ABIDES-style stress, halt, auction, latency, and liquidity-drought fixtures with deterministic seeds)
 - `queue-reactive-orderbook-model`
@@ -111,7 +112,7 @@ Useful quant ML requires market microstructure realism: limit order book feature
 
 - Create a shared benchmark report comparing simple baselines, DeepLOB-style features, transformer-style features, and queue-reactive execution assumptions.
 - Add synthetic distribution-shift scenarios for stress, halts, auctions, and liquidity droughts.
-- Add feature-store lineage so every model input can be traced to event-time data.
+- Extend feature-store lineage so every model input can be traced to event-time data across more benchmark families.
 
 ## Flagship 3: Options Microstructure and 0DTE Research OS
 
