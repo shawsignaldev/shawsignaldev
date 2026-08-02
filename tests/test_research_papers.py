@@ -1199,6 +1199,33 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("not a production trading system", text)
             self.assertIn("not connected to a broker or exchange", text)
 
+    def test_low_latency_trading_system_capstone_is_promoted_as_integrated_market_infrastructure(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+            ROOT / "PORTFOLIO_EVIDENCE_LEDGER.md",
+            ROOT / "ROLE_PACKETS.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("low-latency-trading-system-capstone", text)
+            self.assertIn("Low-Latency Trading System Capstone", text)
+            self.assertIn("market data feed handler", text)
+            self.assertIn("sequence-gap detection", text)
+            self.assertIn("limit order book reconstruction", text)
+            self.assertIn("pre-trade risk gate", text)
+            self.assertIn("order gateway", text)
+            self.assertIn("drop-copy reconciliation", text)
+            self.assertIn("session heartbeat failover", text)
+            self.assertIn("deterministic replay", text)
+            self.assertIn("latency budget", text)
+            self.assertIn("integrated market infrastructure", text)
+            self.assertIn("not financial advice", text)
+            self.assertIn("not a production trading system", text)
+            self.assertIn("not connected to a broker or exchange", text)
+
 
 if __name__ == "__main__":
     unittest.main()
