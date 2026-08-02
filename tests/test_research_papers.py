@@ -1226,6 +1226,31 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("not a production trading system", text)
             self.assertIn("not connected to a broker or exchange", text)
 
+    def test_fpga_smartnic_market_data_core_is_promoted_as_line_rate_hardware_infrastructure(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+            ROOT / "PORTFOLIO_EVIDENCE_LEDGER.md",
+            ROOT / "ROLE_PACKETS.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("fpga-smartnic-market-data-core", text)
+            self.assertIn("FPGA SmartNIC Market Data Core", text)
+            self.assertIn("SmartNIC flow table", text)
+            self.assertIn("market data packet parser", text)
+            self.assertIn("sequence-gap detection", text)
+            self.assertIn("hardware timestamp normalization", text)
+            self.assertIn("DMA descriptor budgeting", text)
+            self.assertIn("AXI Stream boundary", text)
+            self.assertIn("PCIe DMA boundary", text)
+            self.assertIn("line-rate market infrastructure", text)
+            self.assertIn("not financial advice", text)
+            self.assertIn("not a production trading system", text)
+            self.assertIn("not connected to a broker or exchange", text)
+
 
 if __name__ == "__main__":
     unittest.main()
