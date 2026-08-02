@@ -1251,6 +1251,30 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("not a production trading system", text)
             self.assertIn("not connected to a broker or exchange", text)
 
+    def test_market_data_feed_quality_gate_is_promoted_as_feed_trust_infrastructure(self) -> None:
+        required_files = [
+            ROOT / "README.md",
+            ROOT / "PROJECTS.md",
+            ROOT / "FLAGSHIP_SYSTEMS_MAP.md",
+            ROOT / "ADVANCED_RESEARCH_BUILD_QUEUE.md",
+            ROOT / "PORTFOLIO_EVIDENCE_LEDGER.md",
+            ROOT / "ROLE_PACKETS.md",
+        ]
+        for path in required_files:
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("market-data-feed-quality-gate", text)
+            self.assertIn("Market Data Feed Quality Gate", text)
+            self.assertIn("feed quality gate", text)
+            self.assertIn("sequence-gap detection", text)
+            self.assertIn("timestamp sanity", text)
+            self.assertIn("stale-feed detection", text)
+            self.assertIn("crossed quote", text)
+            self.assertIn("operator verdict", text)
+            self.assertIn("public-safe", text)
+            self.assertIn("not financial advice", text)
+            self.assertIn("not a production trading system", text)
+            self.assertIn("not connected to a broker or exchange", text)
+
 
 if __name__ == "__main__":
     unittest.main()
