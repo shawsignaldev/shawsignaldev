@@ -59,6 +59,10 @@ The [Research Reading Map](RESEARCH_READING_MAP.md) connects those papers to Dee
 
 [REPRODUCIBILITY_GUIDE.md](REPRODUCIBILITY_GUIDE.md) gives exact commands for profile verification, site verification, representative repository verification, GitHub Actions checks, and live readback.
 
+## Portfolio Reality Audit
+
+[PORTFOLIO_REALITY_AUDIT.md](PORTFOLIO_REALITY_AUDIT.md) records the public GitHub quality gate: no empty repositories, no README-only promoted shells, no process-residue language, and no employer-facing claim without real code and verification evidence.
+
 ## Interview Talking Points
 
 - Risk-first systems: why controls, caps, and review gates matter before speed.

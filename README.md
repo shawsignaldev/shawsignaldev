@@ -58,6 +58,10 @@ The [Research Reading Map](RESEARCH_READING_MAP.md) ties these papers and reposi
 
 [REPRODUCIBILITY_GUIDE.md](REPRODUCIBILITY_GUIDE.md) gives exact profile verification, site verification, representative repository verification, GitHub Actions, live readback, and repo-count commands.
 
+## Portfolio Reality Audit
+
+[PORTFOLIO_REALITY_AUDIT.md](PORTFOLIO_REALITY_AUDIT.md) tracks whether GitHub displays real code instead of empty repositories, tiny repository shells, README-only projects, or AI-trace language. It is the repair queue for making the public profile employer-facing at the repository-click level.
+
 ## Featured Projects
 
 | Project | Focus | Status |

@@ -51,7 +51,6 @@ class ResearchPaperTests(unittest.TestCase):
         ]
         for phrase in required:
             self.assertIn(phrase, text)
-
         readme = (ROOT / "README.md").read_text(encoding="utf-8")
         packet = (ROOT / "RECRUITER_PACKET.md").read_text(encoding="utf-8")
         self.assertIn("RESEARCH_READING_MAP.md", readme)
@@ -1298,6 +1297,31 @@ class ResearchPaperTests(unittest.TestCase):
             self.assertIn("not financial advice", text)
             self.assertIn("not a production trading system", text)
             self.assertIn("not connected to a broker or exchange", text)
+
+    def test_portfolio_reality_audit_tracks_empty_tiny_and_ai_trace_risks(self) -> None:
+        path = ROOT / "PORTFOLIO_REALITY_AUDIT.md"
+        self.assertTrue(path.exists(), "missing portfolio reality audit")
+        text = path.read_text(encoding="utf-8")
+        required = [
+            "Portfolio Reality Audit",
+            "real code",
+            "empty repository",
+            "tiny repository",
+            "README-only",
+            "process-residue language",
+            "QuantPortfolio",
+            "repair queue",
+            "evidence gate",
+            "employer-facing",
+            "not complete until",
+            "GitHub displays",
+        ]
+        for phrase in required:
+            self.assertIn(phrase, text)
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        packet = (ROOT / "RECRUITER_PACKET.md").read_text(encoding="utf-8")
+        self.assertIn("PORTFOLIO_REALITY_AUDIT.md", readme)
+        self.assertIn("PORTFOLIO_REALITY_AUDIT.md", packet)
 
 
 if __name__ == "__main__":
